@@ -1,16 +1,16 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
   return (
     <>
-      <div className="w-full h-screen bg-rose-400 flex items-center	justify-content-center">
-        <h1>Refy</h1>
-      </div>
-      <div className="w-full h-screen flex items-center	justify-content-center">
-        <h1>Refy</h1>
+      <Head>
+        <title>Home</title>
+        <meta property="og:title" content="Home" key="home" />
+      </Head>
+      <div className="w-full h-screen bg-rose-400 flex items-center justify-center">
+        <h1>Home</h1>
       </div>
     </>
   )
