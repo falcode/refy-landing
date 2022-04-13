@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/svg/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pricing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pricing.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <workItem from="1649625127930" duration="87000" />
       <workItem from="1649625220931" duration="471000" />
       <workItem from="1649625773400" duration="11266000" />
-      <workItem from="1649716653555" duration="1703000" />
+      <workItem from="1649716653555" duration="3233000" />
     </task>
     <servers />
   </component>

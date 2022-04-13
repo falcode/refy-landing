@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import logo from '../assets/svg/logo.svg'
@@ -6,7 +5,7 @@ import logo from '../assets/svg/logo.svg'
 const Navbar = () => {
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 w-full bg-white flex h-16 pr-6 pl-6 flex justify-between">
+      <nav className="fixed top-0 left-0 right-0 w-full shadow bg-white h-16 pr-6 pl-6 flex justify-between z-20">
         <Image
           src={logo}
           alt="Refy Logo"></Image>
