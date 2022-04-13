@@ -1,6 +1,9 @@
 import { Price } from "../types/card.type";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/pro-solid-svg-icons";
+import ButtonSimple from "../../../components/buttons/button-simple";
+import { text } from "stream/consumers";
+import { Button } from "@material-ui/core";
 
 export const CardLeft = (props: Price) => {
   return (
@@ -14,8 +17,11 @@ export const CardLeft = (props: Price) => {
             <span className="text-gray-500">/{props.frequency}</span>
           </div>
         </div>
-        <div className="h-48 bg-gray-50 rounded-b-lg p-6 flex flex-col">
-          <OptionList options={props.options}></OptionList>
+        <div className="h-60 bg-gray-50 rounded-b-lg p-6 flex flex-col justify-between">
+          <div>
+            <OptionList options={props.options}></OptionList>
+          </div>
+          <Button variant="contained">Start your trial</Button>
         </div>
       </div>
     </>
@@ -34,9 +40,11 @@ export const CardCenter = (props: Price) => {
             <span className="text-gray-500">/{props.frequency}</span>
           </div>
         </div>
-        <div className="h-64 bg-gray-50 rounded-b-lg p-6 flex flex-col">
-          <OptionList options={props.options}></OptionList>
-          <button></button>
+        <div className="h-64 bg-gray-50 rounded-b-lg p-6 flex flex-col justify-between">
+          <div>
+            <OptionList options={props.options}></OptionList>
+          </div>
+          <Button variant="contained" color="primary">Start your trial</Button>
         </div>
       </div>
     </>
@@ -55,8 +63,11 @@ export const CardRight = (props: Price) => {
             <span className="text-gray-500">/{props.frequency}</span>
           </div>
         </div>
-        <div className="h-48 bg-gray-50 rounded-b-lg p-6 flex flex-col">
-          <OptionList options={props.options}></OptionList>
+        <div className="h-60 bg-gray-50 rounded-b-lg p-6 flex flex-col justify-between">
+          <div>
+            <OptionList options={props.options}></OptionList>
+          </div>
+          <Button variant="contained">Start your trial</Button>
         </div>
       </div>
     </>

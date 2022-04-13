@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "@material-ui/styles": "latest",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/pro-duotone-svg-icons": "^6.1.1",
