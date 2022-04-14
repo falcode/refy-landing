@@ -31,6 +31,7 @@ export const CardCenter = (props: Price) => {
     <>
       <div className="w-96 z-10 bg-white border-blue-700 border-2 rounded-lg drop-shadow-md">
         <div className="h-40 border-b-2 border-gray-100 flex flex-col items-center justify-center">
+          <div className="absolute -top-2.5 text-sm bg-blue-700 text-white px-2 rounded-xl">MOST POPULAR</div>
           <div className="text-3xl font-bold pb-2">{props.title}</div>
           <div>
             <span className="text-3xl mr-1 font-bold">{props.currency}</span>
