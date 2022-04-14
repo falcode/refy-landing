@@ -1,8 +1,6 @@
 import { Price } from "../types/card.type";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/pro-solid-svg-icons";
-import ButtonSimple from "../../../components/buttons/button-simple";
-import { text } from "stream/consumers";
 import { Button } from "@material-ui/core";
 
 export const CardLeft = (props: Price) => {
