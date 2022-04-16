@@ -73,7 +73,7 @@ export const CardRight = (props: Price) => {
   );
 };
 
-const OptionList = ({options} : {options:string[]}) =>  (
+export const OptionList = ({options} : {options:string[]}) =>  (
     <>
       {options.map((option, i) => (
         <div className="flex items-center pb-4" key={i}>
@@ -87,3 +87,6 @@ const OptionList = ({options} : {options:string[]}) =>  (
       }
     </>
   );
+
+
+export default  OptionList;
