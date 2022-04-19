@@ -1,36 +1,58 @@
 .font {
   white-space: pre-line;
 
-  &-title {
+  &-big-title {
     @extend .font;
-    font-size: 2.5rem;
+    font-family: $refy-nexa-font;
+    font-size: 2.875rem;
     font-weight: bold;
-    line-height: 3rem;
+    line-height: 3.5rem;
     color: $blue;
   }
 
-  &-title-2 {
+  &-title {
     @extend .font;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-family: $refy-firasans-font;
+    font-size: 1.5rem;
+    line-height: 2rem;
     font-weight: bold;
-    color: black;
+    color: $black-100;
     &--white {
-      @extend .font-title-2;
+      @extend .font-title;
       color: white;
     }
   }
   
   &-subtitle {
     @extend .font;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+    font-family: $refy-firasans-font;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
     color: $grey;
   }
   
   &-hint {
     @extend .font;
+    font-family: $refy-firasans-font;
+    font-weight: normal;
     font-size: 1rem;
+    line-height: 1.5rem;
     color: $grey;
+  }
+
+  &-button {
+    &-toggle {
+      @extend .font;
+      font-family: $refy-firasans-font;
+      font-size: 1.25rem;
+      line-height: 3rem;
+      font-weight: normal;
+      color: $black-100;
+      &-active {
+        color: $white;
+        font-weight: 500;
+      }
+    }
   }
 }

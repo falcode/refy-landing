@@ -8,6 +8,20 @@ import logo from "../assets/svg/logo-primary.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSliders } from "@fortawesome/pro-solid-svg-icons";
 
+const Container = ({
+  children,
+  bgColor,
+  classes,
+}: {
+  children: React.ReactNode;
+  bgColor: string;
+  classes?: string;
+}) => (
+  <div className={`bg-${bgColor} w-full px-5 py-10`}>
+    <div className={`container mx-auto ${classes}`}>{children}</div>
+  </div>
+);
+
 const Home: NextPage = () => {
   const { t } = useTranslation("home");
   return (
@@ -18,40 +32,48 @@ const Home: NextPage = () => {
       </Head>
       <div className="pt-16">
         {/* Banner 1 */}
-        <div className="w-full p-10 bg-white flex items-center">
+        <Container bgColor="white" classes="flex items-center">
           <div className="flex flex-col flex-1">
-            <h1 className="font-title mb-10">{t("first.title")}</h1>
+            <h1 className="font-big-title mb-10">{t("first.title")}</h1>
             <p className="font-subtitle mb-8">{t("first.subtitle")}</p>
             <button className="button-primary">{t("first.button")}</button>
             <p className="font-hint mt-4">{t("first.hint")}</p>
           </div>
           <div className="flex flex-1 mobile:hidden">Image here</div>
-        </div>
+        </Container>
 
         {/* Banner 2 */}
-        <div className="w-full p-14 bg-gray-100 flex flex-col items-center">
-          <h1 className="font-title-2 mb-10">{t("second.title")}</h1>
+        <Container bgColor="gray-100" classes="flex flex-col items-center">
+          <h1 className="font-title text-center mb-10">{t("second.title")}</h1>
           <SliderCards
             {...{ cards: ["fidelity", "money", "mix"] }}
           ></SliderCards>
-        </div>
+        </Container>
 
         {/* Banner 3 */}
-        <div className="w-full p-14 bg-primary flex flex-col items-center justify-center">
-          <h1 className="font-title-2--white mb-10">{t("third.title")}</h1>
+        <Container
+          bgColor="primary"
+          classes="flex flex-col items-center justify-center"
+        >
+          <h1 className="font-title--white mb-10">{t("third.title")}</h1>
           <div className="flex items-center justify-center mobile:flex-col mobile:space-x-0 mobile:space-y-5">
             <Image src={logo} alt={logo} className="bg-white"></Image>
             <Image src={logo} alt={logo} className="bg-white"></Image>
             <Image src={logo} alt={logo} className="bg-white"></Image>
           </div>
-        </div>
+        </Container>
 
         {/* Banner 4 */}
-        <div className="w-full p-10 flex flex-col">
+        <Container
+          bgColor="white"
+          classes="flex flex-col items-center justify-center"
+        >
           {/* Section 1 */}
-          <div className="flex">
+          <div className="flex mobile:flex-col">
             <div className="flex-1 p-10">
-              <h1 className="font-title mb-10">{t("fourth.first.title")}</h1>
+              <h1 className="font-big-title mb-10">
+                {t("fourth.first.title")}
+              </h1>
               <p className="font-hint mb-8">{t("fourth.first.hint")}</p>
               <p className="font-subtitle mb-4">{t("fourth.first.text-1")}</p>
               <p className="font-subtitle mb-4">{t("fourth.first.text-2")}</p>
@@ -83,10 +105,12 @@ const Home: NextPage = () => {
           </div>
 
           {/* Section 2 */}
-          <div className="flex">
+          <div className="flex mobile:flex-col">
             <div className="flex-1 p-10"></div>
             <div className="flex-1 p-10">
-              <h1 className="font-title mb-10">{t("fourth.second.title")}</h1>
+              <h1 className="font-big-title mb-10">
+                {t("fourth.second.title")}
+              </h1>
               <p className="font-subtitle mb-4">{t("fourth.second.text-1")}</p>
               <p className="font-subtitle mb-4">{t("fourth.second.text-2")}</p>
               <p className="font-subtitle">{t("fourth.second.text-3")}</p>
@@ -94,9 +118,11 @@ const Home: NextPage = () => {
           </div>
 
           {/* Section 3 */}
-          <div className="flex">
+          <div className="flex mobile:flex-col">
             <div className="flex-1 p-10">
-              <h1 className="font-title mb-10">{t("fourth.third.title")}</h1>
+              <h1 className="font-big-title mb-10">
+                {t("fourth.third.title")}
+              </h1>
               <p className="font-subtitle mb-4">{t("fourth.third.text-1")}</p>
               <p className="font-subtitle mb-4">{t("fourth.third.text-2")}</p>
               <p className="font-subtitle">{t("fourth.third.text-3")}</p>
@@ -105,10 +131,12 @@ const Home: NextPage = () => {
           </div>
 
           {/* Section 4 */}
-          <div className="flex">
+          <div className="flex mobile:flex-col">
             <div className="flex-1 p-10"></div>
             <div className="flex-1 p-10">
-              <h1 className="font-title mb-10">{t("fourth.fourth.title")}</h1>
+              <h1 className="font-big-title mb-10">
+                {t("fourth.fourth.title")}
+              </h1>
               <p className="font-subtitle mb-4">{t("fourth.fourth.text-1")}</p>
               <p className="font-subtitle mb-4">{t("fourth.fourth.text-2")}</p>
               <p className="font-subtitle mb-4">{t("fourth.fourth.text-3")}</p>
@@ -117,16 +145,18 @@ const Home: NextPage = () => {
           </div>
 
           {/* Section 5 */}
-          <div className="flex">
+          <div className="flex mobile:flex-col">
             <div className="flex-1 p-10">
-              <h1 className="font-title mb-10">{t("fourth.fifth.title")}</h1>
+              <h1 className="font-big-title mb-10">
+                {t("fourth.fifth.title")}
+              </h1>
               <p className="font-subtitle mb-4">{t("fourth.fifth.text-1")}</p>
               <p className="font-subtitle mb-4">{t("fourth.fifth.text-2")}</p>
               <p className="font-subtitle">{t("fourth.fifth.text-3")}</p>
             </div>
             <div className="flex-1 p-10"></div>
           </div>
-        </div>
+        </Container>
       </div>
     </>
   );
@@ -143,16 +173,22 @@ const SliderCards = ({ cards }: { cards: string[] }) => {
   const { t } = useTranslation("home");
   return (
     <>
-      <div className="flex bg-white rounded-xl h-8 items-center justify-center mb-8 cursor-pointer">
+      <div className="flex bg-white rounded-xl items-center justify-center mb-8 cursor-pointer">
         {cards.map((card, i) => (
           <div
             key={i}
             className={`px-6 h-full flex items-center rounded-xl ${
-              program === card ? " bg-primary text-white" : ""
+              program === card ? "bg-primary" : ""
             }`}
             onClick={() => setProgram(card)}
           >
-            {t(`second.${card}.title`)}
+            <p
+              className={`font-button-toggle ${
+                program === card ? "font-button-toggle-active" : ""
+              }`}
+            >
+              {t(`second.${card}.title`)}
+            </p>
           </div>
         ))}
       </div>
@@ -171,7 +207,7 @@ const ProgramCard = (card: Program) => {
   return (
     <div className="flex flex-col p-4 w-72 h-96 bg-white rounded-lg drop-shadow-md">
       <div className="w-full h-36"></div>
-      <p className="font-title-2 mb-4">{card.title}</p>
+      <p className="font-title mb-4">{card.title}</p>
       <p className="font-hint">{card.subtitle}</p>
     </div>
   );

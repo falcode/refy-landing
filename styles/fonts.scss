@@ -7,7 +7,26 @@
 @font-face {
   font-family: "Nexa";
   font-weight: bold;
-  src: local("Nexa"), url("../assets/fonts/Nexa/Nexa-Bold.ttf");
+  src: local("Nexa"), url("../assets/fonts/Nexa/Nexa-Bold.otf");
 }
 
-$refy-font: Nexa;
+@font-face {
+  font-family: "FiraSans";
+  font-weight: bold;
+  src: local("FiraSans"), url("../assets/fonts/FiraSans/FiraSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "FiraSans";
+  font-weight: 500;
+  src: local("FiraSans"), url("../assets/fonts/FiraSans/FiraSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "FiraSans";
+  font-weight: normal;
+  src: local("FiraSans"), url("../assets/fonts/FiraSans/FiraSans-Regular.ttf");
+}
+
+$refy-nexa-font: Nexa;
+$refy-firasans-font: FiraSans;
