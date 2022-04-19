@@ -1,5 +1,6 @@
 const { height } = require('./theme-extend-tailwind/theme.extend.height');
 const { backgroundColor } = require('./theme-extend-tailwind/theme.extend.backgroundColor');
+const { screens } = require('./theme-extend-tailwind/theme.extend.breakpoints');
 
 module.exports = {
   content: [
@@ -10,6 +11,7 @@ module.exports = {
     extend: {
       height,
       backgroundColor,
+      screens
     },
   },
   plugins: [],
