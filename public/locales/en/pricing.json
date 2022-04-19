@@ -1,0 +1,29 @@
+{
+  "title": "Pricing",
+
+  "banner": {
+    "title": "We are changing the game, no more bloodsuckers",
+    "subtitle": "There is no charge for referral, pay once per month. Organic recruitment forever."
+  },
+
+  "card": {
+    "currency": "€",
+    "frequency": "monthly",
+    "left": {
+      "title": "Free",
+      "price": "0",
+      "options": ["Your own company", "5 employee accounts", "Points system without shop"]
+
+    },
+    "center": {
+      "title": "Startup",
+      "price": "190",
+      "options": ["Unlimited employee accounts", "Custom ATS integration", "Reward your employees", "Custom shop"]
+    },
+    "right": {
+      "title": "Company",
+      "price": "300",
+      "options": ["Startup pack & more", "Custom features", "Personal assistance", "Multiple ATS integration"]
+    }
+  }
+}

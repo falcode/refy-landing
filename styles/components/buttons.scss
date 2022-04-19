@@ -1,0 +1,17 @@
+.button {
+  width: fit-content;
+  text-transform: none;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  &:hover {
+    cursor: pointer;
+  }
+
+  &-primary {
+    @extend .button;
+    color: white;
+    background-color: $primary;
+  }
+
+}

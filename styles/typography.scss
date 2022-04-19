@@ -1,0 +1,36 @@
+.font {
+  white-space: pre-line;
+
+  &-title {
+    @extend .font;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 3rem;
+    color: $blue;
+  }
+
+  &-title-2 {
+    @extend .font;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    color: black;
+    &--white {
+      @extend .font-title-2;
+      color: white;
+    }
+  }
+  
+  &-subtitle {
+    @extend .font;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: $grey;
+  }
+  
+  &-hint {
+    @extend .font;
+    font-size: 1rem;
+    color: $grey;
+  }
+}
