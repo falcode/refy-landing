@@ -7,20 +7,9 @@ import { useState } from "react";
 import logo from "../assets/svg/logo-primary.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSliders } from "@fortawesome/pro-solid-svg-icons";
+import Container from "../layout/container";
 
-const Container = ({
-  children,
-  bgColor,
-  classes,
-}: {
-  children: React.ReactNode;
-  bgColor: string;
-  classes?: string;
-}) => (
-  <div className={`bg-${bgColor} w-full px-5 py-10`}>
-    <div className={`container mx-auto ${classes}`}>{children}</div>
-  </div>
-);
+
 
 const Home: NextPage = () => {
   const { t } = useTranslation("home");
