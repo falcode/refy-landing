@@ -10,6 +10,15 @@
     color: $blue;
   }
 
+  &-big-title--mini {
+    @extend .font;
+    font-family: $refy-nexa-font;
+    font-size: 1.625rem;
+    font-weight: bold;
+    line-height: 2rem;
+    color: $blue;
+  }
+
   &-title {
     @extend .font;
     font-family: $refy-firasans-font;
