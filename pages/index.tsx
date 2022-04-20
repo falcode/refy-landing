@@ -6,8 +6,10 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useState } from "react";
 import logo from "../assets/svg/logo-primary.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSliders, faHeart } from "@fortawesome/pro-solid-svg-icons";
+import { faSliders, faHeart, faCircleCheck, faHexagonExclamation } from "@fortawesome/pro-solid-svg-icons";
+import { faLink } from "@fortawesome/pro-regular-svg-icons";
 import Container from "../layout/container";
+import remoteWork from "../assets/wallpapers/remotework1.jpg";
 
 function Translate(text: string, array?: boolean): string {
   const { t } = useTranslation("home");
@@ -89,7 +91,7 @@ const Banner3 = () => (
 const Banner4 = () => (
   <Container bgColor="white">
     <div className="flex mobile:flex-col">
-      <div className="flex-1">
+      <div className="flex-1 mobile:mb-10">
         <h1 className="font-big-title mb-10">{Translate("fourth.first.title")}</h1>
         <p className="font-hint mb-8">{Translate("fourth.first.hint")}</p>
         <p className="font-subtitle mb-4">{Translate("fourth.first.text-1")}</p>
@@ -109,14 +111,14 @@ const Banner4 = () => (
             <Image src={logo}></Image>
             <div className="flex items-baseline justify-center">
               <FontAwesomeIcon icon={faHeart} style={{ fontSize: "1.2rem", color: "#FE6680" }}></FontAwesomeIcon>
-              <p className="font-big-title--mini ml-2">140</p>
+              <p className="font-big-title--mini ml-2">90</p>
             </div>
           </div>
           <div className="absolute flex left-0 right-0 ml-auto mr-auto flex-col justify-between p-4 w-32 h-40 bg-white rounded-xl drop-shadow-md">
             <Image src={logo}></Image>
             <div className="flex items-baseline justify-center">
               <FontAwesomeIcon icon={faHeart} style={{ fontSize: "1.2rem", color: "#FE6680" }}></FontAwesomeIcon>
-              <p className="font-big-title--mini ml-2">140</p>
+              <p className="font-big-title--mini ml-2">230</p>
             </div>
           </div>
         </div>
@@ -141,30 +143,69 @@ const Banner4 = () => (
   </Container>
 );
 
-const Banner5 = () => (
-  <Container bgColor="white">
-    <div className="flex mobile:flex-col">
-      <div className="flex-1"></div>
-      <div className="flex-1">
-        <h1 className="font-big-title mb-10">{Translate("fourth.second.title")}</h1>
-        <p className="font-subtitle mb-4">{Translate("fourth.second.text-1")}</p>
-        <p className="font-subtitle mb-4">{Translate("fourth.second.text-2")}</p>
-        <p className="font-subtitle">{Translate("fourth.second.text-3")}</p>
+const Banner5 = () => {
+  const ShareLinkBox = () => (
+    <div className="flex flex-col justify-between w-80 h-80 bg-white rounded-xl drop-shadow-md">
+      <div className="flex items-center justify-center bg-primary h-16 rounded-t-xl">
+        <Image src={logo} alt={logo} className="rounded-xl px-10 bg-white" width={40} height={35}></Image>
+      </div>
+      <div
+        className="flex items-center h-full justify-center bg-cover font-title--white"
+        style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${remoteWork.src})` }}
+      >
+        Head of HR
+      </div>
+      <div className="flex items-center justify-center bg-white h-28 rounded-b-xl">
+        <div className="flex items-center rounded-xl py-2 px-4 bg-gray-100">
+          <FontAwesomeIcon icon={faLink} style={{ fontSize: "0.8rem", color: "#434F59" }}></FontAwesomeIcon>
+          <p className="font-hint--small ml-2">https://share.refyapp.com/jobs/23HTYD</p>
+        </div>
       </div>
     </div>
-  </Container>
-);
+  );
+  return (
+    <Container bgColor="white">
+      <div className="flex mobile:flex-col-reverse">
+        <div className="flex flex-1 justify-center">
+          <ShareLinkBox></ShareLinkBox>
+        </div>
+        <div className="flex-1 mobile:mb-14">
+          <h1 className="font-big-title mb-10">{Translate("fourth.second.title")}</h1>
+          <p className="font-subtitle mb-4">{Translate("fourth.second.text-1")}</p>
+          <p className="font-subtitle mb-4">{Translate("fourth.second.text-2")}</p>
+          <p className="font-subtitle">{Translate("fourth.second.text-3")}</p>
+        </div>
+      </div>
+    </Container>
+  );
+};
 
 const Banner6 = () => (
   <Container bgColor="white">
     <div className="flex mobile:flex-col">
-      <div className="flex-1">
+      <div className="flex-1 mobile:mb-10">
         <h1 className="font-big-title mb-10">{Translate("fourth.third.title")}</h1>
         <p className="font-subtitle mb-4">{Translate("fourth.third.text-1")}</p>
         <p className="font-subtitle mb-4">{Translate("fourth.third.text-2")}</p>
         <p className="font-subtitle">{Translate("fourth.third.text-3")}</p>
       </div>
-      <div className="flex-1"></div>
+      <div className="flex-1 flex justify-center">
+        <div className="flex items-center justify-between w-80 h-40 p-5 bg-white rounded-xl drop-shadow-md">
+          <div></div>
+          <div className="h-full flex flex-col justify-center space-y-5">
+            {[...Array(3)].map((_, i) => (
+              <div className="flex items-center" key={i}>
+                <div className="w-24 h-5 mr-3 bg-gray-100 rounded-xl"></div>
+                {i !== 2 ? (
+                  <FontAwesomeIcon icon={faCircleCheck} style={{ fontSize: "1.2rem", color:"green" }}></FontAwesomeIcon>
+                ) : (
+                  <FontAwesomeIcon icon={faHexagonExclamation} style={{ fontSize: "1.2rem", color:"red" }}></FontAwesomeIcon>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   </Container>
 );
