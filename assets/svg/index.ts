@@ -1,0 +1,11 @@
+export { default as logo } from "./logo-primary.svg";
+export { default as integrations } from "./integrations.svg";
+export { default as channels } from "./channels.svg";
+export { default as banner } from "./banner.svg";
+export { default as fidelity_program1 } from "./fidelity_program1.svg";
+export { default as fidelity_program2 } from "./fidelity_program2.svg";
+export { default as fidelity_program3 } from "./fidelity_program3.svg";
+export { default as filter_candidates } from "./filter_candidates.svg";
+export { default as candidate } from "./candidate.svg";
+export { default as candidate2 } from "./candidate2.svg";
+export { default as candidate3 } from "./candidate3.svg";

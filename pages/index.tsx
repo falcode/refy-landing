@@ -4,7 +4,20 @@ import type { NextPage } from "next";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useState } from "react";
-import logo from "../assets/svg/logo-primary.svg";
+import {
+  logo,
+  integrations,
+  channels,
+  banner,
+  fidelity_program1,
+  fidelity_program2,
+  fidelity_program3,
+  filter_candidates,
+  candidate,
+  candidate2,
+  candidate3,
+} from "../assets/svg";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSliders, faHeart, faCircleCheck, faHexagonExclamation } from "@fortawesome/pro-solid-svg-icons";
 import { faLink } from "@fortawesome/pro-regular-svg-icons";
@@ -24,23 +37,26 @@ const Banner1 = () => (
       <button className="button-primary">{Translate("first.button")}</button>
       <p className="font-hint mt-4">{Translate("first.hint")}</p>
     </div>
-    <div className="flex flex-1 mobile:hidden">Image here</div>
+    <div className="flex flex-1 items-center justify-center mobile:hidden">
+      <Image src={banner}></Image>
+    </div>
   </Container>
 );
 
 const Banner2 = () => {
   const SliderCards = ({ cards }: { cards: string[] }) => {
     const [program, setProgram] = useState("fidelity");
-    type Program = {
+    const images = [fidelity_program1, fidelity_program2, fidelity_program3];
+    interface Program {
+      id: number;
       title: string;
       subtitle: string;
-      img: string;
-    };
-    const ProgramCard = (card: Program) => {
+    }
+    const ProgramCard = ({ card }: { card: Program }) => {
       return (
-        <div className="flex flex-col p-4 w-72 h-96 bg-white rounded-lg drop-shadow-md">
-          <div className="w-full h-36"></div>
-          <p className="font-title mb-4">{card.title}</p>
+        <div className="flex flex-col p-4 w-72 h-100 bg-white rounded-lg drop-shadow-md">
+          <Image src={images[card.id]} alt={`Fidelity program ${card.id}`} width="100%" height="150px"></Image>
+          <p className="font-title my-4">{card.title}</p>
           <p className="font-hint">{card.subtitle}</p>
         </div>
       );
@@ -61,8 +77,8 @@ const Banner2 = () => {
           ))}
         </div>
         <div className="flex items-center justify-center space-x-5 mobile:flex-col mobile:space-x-0 mobile:space-y-5">
-          {(Translate(`second.${program}.cards`, true) as unknown as []).map((card, i) => (
-            <ProgramCard key={i} {...card}></ProgramCard>
+          {(Translate(`second.${program}.cards`, true) as unknown as []).map((card: Program, i) => (
+            <ProgramCard key={i} card={{ id: i, title: card.title, subtitle: card.subtitle }}></ProgramCard>
           ))}
         </div>
       </>
@@ -101,21 +117,21 @@ const Banner4 = () => (
       <div className="flex flex-col flex-1 items-center justify-between">
         <div className="relative flex w-80 h-80">
           <div className="absolute flex top-24 flex-col justify-between p-4 w-32 h-40 bg-white rounded-xl drop-shadow-md">
-            <Image src={logo}></Image>
+            <Image src={candidate} alt="Candidate 1"></Image>
             <div className="flex items-baseline justify-center">
               <FontAwesomeIcon icon={faHeart} style={{ fontSize: "1.2rem", color: "#FE6680" }}></FontAwesomeIcon>
               <p className="font-big-title--mini ml-2">140</p>
             </div>
           </div>
           <div className="absolute flex right-0 top-24 center flex-col justify-between p-4 w-32 h-40 bg-white rounded-xl drop-shadow-md">
-            <Image src={logo}></Image>
+            <Image src={candidate2} alt="Candidate 2"></Image>
             <div className="flex items-baseline justify-center">
               <FontAwesomeIcon icon={faHeart} style={{ fontSize: "1.2rem", color: "#FE6680" }}></FontAwesomeIcon>
               <p className="font-big-title--mini ml-2">90</p>
             </div>
           </div>
           <div className="absolute flex left-0 right-0 ml-auto mr-auto flex-col justify-between p-4 w-32 h-40 bg-white rounded-xl drop-shadow-md">
-            <Image src={logo}></Image>
+            <Image src={candidate3} alt="Candidate 3"></Image>
             <div className="flex items-baseline justify-center">
               <FontAwesomeIcon icon={faHeart} style={{ fontSize: "1.2rem", color: "#FE6680" }}></FontAwesomeIcon>
               <p className="font-big-title--mini ml-2">230</p>
@@ -146,8 +162,10 @@ const Banner4 = () => (
 const Banner5 = () => {
   const ShareLinkBox = () => (
     <div className="flex flex-col justify-between w-80 h-80 bg-white rounded-xl drop-shadow-md">
-      <div className="flex items-center justify-center bg-primary h-16 rounded-t-xl">
-        <Image src={logo} alt={logo} className="rounded-xl px-10 bg-white" width={40} height={35}></Image>
+      <div className="flex items-center justify-center bg-primary h-24 rounded-t-xl">
+        <div className="rounded-lg flex items-center justify-center h-11 px-1 bg-white">
+          <Image src={logo} alt={logo}  width={38} height={35}></Image>
+        </div>
       </div>
       <div
         className="flex items-center h-full justify-center bg-cover font-title--white"
@@ -189,17 +207,18 @@ const Banner6 = () => (
         <p className="font-subtitle mb-4">{Translate("fourth.third.text-2")}</p>
         <p className="font-subtitle">{Translate("fourth.third.text-3")}</p>
       </div>
-      <div className="flex-1 flex justify-center">
-        <div className="flex items-center justify-between w-80 h-40 p-5 bg-white rounded-xl drop-shadow-md">
-          <div></div>
+      <div className="flex-1 flex flex-col items-center justify-center">
+        <Image src={filter_candidates} alt="Filter candidates"></Image>
+        <div className="flex items-center justify-between w-72 h-40 p-5 bg-white rounded-xl drop-shadow-md">
+          <Image src={candidate} alt="Candidate"></Image>
           <div className="h-full flex flex-col justify-center space-y-5">
             {[...Array(3)].map((_, i) => (
               <div className="flex items-center" key={i}>
                 <div className="w-24 h-5 mr-3 bg-gray-100 rounded-xl"></div>
                 {i !== 2 ? (
-                  <FontAwesomeIcon icon={faCircleCheck} style={{ fontSize: "1.2rem", color:"green" }}></FontAwesomeIcon>
+                  <FontAwesomeIcon icon={faCircleCheck} style={{ fontSize: "1.2rem", color: "green" }}></FontAwesomeIcon>
                 ) : (
-                  <FontAwesomeIcon icon={faHexagonExclamation} style={{ fontSize: "1.2rem", color:"red" }}></FontAwesomeIcon>
+                  <FontAwesomeIcon icon={faHexagonExclamation} style={{ fontSize: "1.2rem", color: "red" }}></FontAwesomeIcon>
                 )}
               </div>
             ))}
@@ -212,9 +231,11 @@ const Banner6 = () => (
 
 const Banner7 = () => (
   <Container bgColor="white">
-    <div className="flex mobile:flex-col">
-      <div className="flex-1"></div>
-      <div className="flex-1">
+    <div className="flex mobile:flex-col-reverse">
+      <div className="flex-1 flex items-center justify-center w-full">
+        <Image src={integrations} alt="Integrations"></Image>
+      </div>
+      <div className="flex-1 mobile:mb-10">
         <h1 className="font-big-title mb-10">{Translate("fourth.fourth.title")}</h1>
         <p className="font-subtitle mb-4">{Translate("fourth.fourth.text-1")}</p>
         <p className="font-subtitle mb-4">{Translate("fourth.fourth.text-2")}</p>
@@ -228,13 +249,15 @@ const Banner7 = () => (
 const Banner8 = () => (
   <Container bgColor="white">
     <div className="flex mobile:flex-col">
-      <div className="flex-1">
+      <div className="flex-1 mb-10">
         <h1 className="font-big-title mb-10">{Translate("fourth.fifth.title")}</h1>
         <p className="font-subtitle mb-4">{Translate("fourth.fifth.text-1")}</p>
         <p className="font-subtitle mb-4">{Translate("fourth.fifth.text-2")}</p>
         <p className="font-subtitle">{Translate("fourth.fifth.text-3")}</p>
       </div>
-      <div className="flex-1"></div>
+      <div className="flex-1 flex items-center justify-center w-full">
+        <Image src={channels} alt="channels"></Image>
+      </div>
     </div>
   </Container>
 );

@@ -1,66 +1,66 @@
 {
-  "title": "Inicio",
+  "title": "Home",
 
   "first": {
-    "title": "Atrae talento de la mano de los mejores promotores:\n tu propio equipo.",
-    "subtitle": "La plataforma para crear un programa de referidos integral y llevar tu marca de empleador al siguiente nivel.",
-    "button": "Pruébalo gratis*",
-    "hint": "*Sí, gratis para siempre hasta 5 empleados"
+    "title": "Attract talent from the best promoters:\nyour own team.",
+    "subtitle": "The platform to create a comprehensive referral program and take your employer brand to the next level.",
+    "button": "Try it free*",
+    "hint": "*Yes, free forever up to 5 employees"
   },
 
   "second": {
-    "title": "Elige el programa de referidos que más se adapte a la cultura de tu empresa",
-    "fidelity": 
-      { 
-        "title": "Por puntos de fidelidad", 
+    "title": "Choose the referral program that best suits your company culture",
+    "fidelity":
+      {
+        "title": "For loyalty points",
         "cards": [
           {
-            "title": "Premia con puntos de fidelidad y crea un ranking.",
-            "subtitle": "Los miembros del equipo reciben puntos según su umplicación en el programa de referidos: compartir en Linkedin,, por candidato recomendado o contratado, etc."
+            "title": "Award loyalty points and create a ranking.",
+            "subtitle": "Team members receive points based on their involvement in the referral program: sharing on Linkedin, per recommended or hired candidate, etc."
           },
           {
-            "title": "Cada miembro del equipo tiene un link único.",
-            "subtitle": "Distribuye las ofertas de empleo entre los miembros para que compartan sus links únicos con sus redes de contactos. Siempre sabrás de quén viene el candidato."
+            "title": "Each team member has a unique link.",
+            "subtitle": "Distribute job offers to members so they can share your unique links with their networks. You'll always know who the candidate is coming from."
           },
           {
-            "title": "Mantén a tu equipo siempre conectado.",
-            "subtitle": "Conecta Slack o Teams para notificar a tu equipo sobre las ofertas de trabajo o el estado de sus candidatos recomendados."
+            "title": "Keep your team always connected.",
+            "subtitle": "Connect Slack or Teams to notify your team about job openings or the status of their recommended candidates."
           }
         ]
       },
-      "money": 
-      { 
-        "title": "Por salario", 
+      "money":
+      {
+        "title": "For salary",
         "cards": [
           {
-            "title": "Por salario",
-            "subtitle": "Por salario"
+            "title": "The best reward, the best candidates",
+            "subtitle": "Hundreds of companies are already rewarding their employees with an extra salary, even lower than that of a Head hunter."
           },
           {
-            "title": "Por salario",
-            "subtitle": "Por salario"
+            "title": "My company pays me to work with former colleagues!",
+            "subtitle": "The satisfaction of an employee who manages to return to work with former colleagues and that others receive an extra strengthens his bond with the company."
           },
           {
-            "title": "Por salario",
-            "subtitle": "Por salario"
+            "title": "A commitment that must be rewarded",
+            "subtitle": "Most candidates feel a great responsibility in recommending a candidate on their behalf."
           }
         ]
       },
-      "mix": 
-      { 
-        "title": "Mixto", 
+      "mix":
+      {
+        "title": "Mixed",
         "cards": [
           {
-            "title": "Tu decides tu propio sistema de premios.",
-            "subtitle": "Salario y puntuación, crea tu propio sistema que motivará al máximo a tus trabajadores a traer sus mejores candidatos."
+            "title": "You decide your own reward system.",
+            "subtitle": "Salary and score, create your own system that will motivate your workers to the maximum to bring their best candidates."
           },
           {
-            "title": "Explota al 100% los referidos.",
-            "subtitle": "Con un sistema de premiado tan amplio podrás olvidarte de contrataciones sobre desconocidos. Tus empleados se esforzaran a referir sus mejores compañeros."
+            "title": "Exploits 100% referrals.",
+            "subtitle": "With such a comprehensive award system you can forget about hiring strangers. Your employees will make an effort to refer their best colleagues."
           },
           {
-            "title": "Una oferta, una recompensa.",
-            "subtitle": "Podrás personalizar las recompensas para potenciar aspectos como el desbalance de generos o la multiculturalidad de tus equipos."
+            "title": "An offer, a reward.",
+            "subtitle": "You can customize the rewards to enhance aspects such as gender imbalance or the multiculturalism of your teams."
           }
         ]
       }
@@ -68,46 +68,46 @@
   },
 
   "third": {
-    "title": "Más de 100 empresas ya atraen talento con Refy."
+    "title": "More than 100 companies already attract talent with Refy."
   },
 
   "fourth": {
     "first": {
-      "title": "Crea un programa de recompensas basado en puntos de fidelidad*.",
-      "hint": "*Opcional según tu configuración del programa de referidos.",
-      "text-1": "Los programas de referidos con recompensa por salario funcionan, pero como se suele premiar sólo por candidato contratado, la participación del equipo es menor de lo que podría esperar.",
-      "text-2": "Con Refy puedes crear un plan de referidos que premie también por compartir la oferta en Linkedin, recomendar un candidato o compartir publicaciones que promocionen la marca de empleador.",
-      "text-3": "Los miembros del equipo pueden intercambiar los puntos por recompensas según la estrategia de la compañía: días de vacaciones, días de teletrabajo, camisetas o cualquier cosa que se te ocurra.",
+      "title": "Create a rewards program based on loyalty points*.",
+      "hint": "*Optional depending on your referral program settings.",
+      "text-1": "Salary reward referral programs work, but because they are usually rewarded only per recruit, team participation is less than you might expect.",
+      "text-2": "With Refy you can create a referral plan that also rewards for sharing the offer on Linkedin, recommending a candidate or sharing publications that promote the employer brand.",
+      "text-3": "Team members can exchange points for rewards according to the company's strategy: vacation days, telecommuting days, t-shirts or whatever you can think of.",
       "card": {
-        "options": ["Candidato recomendado", "Candidato contratado", "Post de oferta", "Post de marca"],
-        "points": ["5 pts", "100 pts", "1 pts", "10 pts"]
+        "options": ["Recommended Candidate", "Hired Candidate", "Offer Post", "Brand Post"],
+        "points": ["5pts", "100pts", "1pts", "10pts"]
       }
       
     },
     "second": {
-      "title": "Trazabilidad total: un link de oferta único para cada miembro del equipo.",
-      "text-1": "Una de lcas claves del programa de referidos integral es tener una buena trazabilidad de las ofertas compartidas.",
-      "text-2": "En Refy cada miembro del equipo puede compartir sus links de oferta únicos con su red de contactos. Esto te permitirá conocer quiénes tienen mayor alcance o se esfueran más en difundir tus oferas.",
-      "text-3": "Además, cuando un candidato aplica a la oferta mediante el link, sabremos quén ha sido el referidor y le enviaremos la candidatura para que decida si quiere recomendarlo o no."
+      "title": "Full traceability: a unique offer link for each team member.",
+      "text-1": "One of the keys to a comprehensive referral program is having good traceability of shared offers.",
+      "text-2": "In Refy, each member of the team can share their unique offer links with their network of contacts. This will allow you to know who has the greatest reach or who make the most effort to spread your offers.",
+      "text-3": "Also, when a candidate applies to the offer through the link, we will know who the referrer has been and we will send him the application so that he can decide if he wants to recommend it or not."
     },
     "third": {
-      "title": "Filtra candidatos creando preguntas para los miembros de tu equipo",
-      "text-1": "Ya que van a obtener una buena recompensa, vamos a pedir a los miembros del equipo que nos ayuden un poco a filtrar candidatos, ¿no?.",
-      "text-2": "En Refy puedes crear preguntas no sólo para los candidatos, sino también pr los miembros del equipo: si el candidato comparte los valores culturales de la empresa, su nivel de inglés o su rango salarial esperado.",
-      "text-3": "Y es que al final no es solo atraer candidatos, sino conseguir que todo el equipo se implique en atraer perfiles de calidad y optimizar el proceso de selección"
+      "title": "Filter candidates by creating questions for your team members",
+      "text-1": "Since you're going to get a nice reward, we're going to ask the team members to help us a little filter candidates, right?.",
+      "text-2": "In Refy you can create questions not only for candidates, but also for team members: if the candidate shares the cultural values ​​of the company, their level of English or their expected salary range.",
+      "text-3": "In the end, it's not just about attracting candidates, but getting the whole team involved in attracting quality profiles and optimizing the selection process"
     },
     "fourth": {
-      "title": "Estamos 100% integrados con tu ATS.",
-      "text-1": "Nos integramos con tu Applicant Tracking System (ATS) para que Refy no te suponga una carga adicional de trabajo.",
-      "text-2": "Cuando publiques una oferta en tu ATS, la publicaremos automáticamente en Refy para que puedan verla tus empleados.",
-      "text-3": "De la misma forma, cuando se recomiende un nuevo candidato lo  mandaremos a tu ATS para que lo puedas gestionar adecuadamente.",
-      "text-4": "¿Y si no tienes ATS? No pasa nada, puedes gestionar de forma fácil las candidaturas de Refy"
+      "title": "We are 100% integrated with your ATS.",
+      "text-1": "We integrate with your Applicant Tracking System (ATS) so Refy doesn't add extra workload to you.",
+      "text-2": "When you post an offer to your ATS, we'll automatically post it to Refy for your employees to see.",
+      "text-3": "In the same way, when a new candidate is recommended, we will send it to your ATS so that you can manage it properly.",
+      "text-4": "What if you don't have ATS? It's okay, you can easily manage Refy applications"
     },
     "fifth": {
-      "title": "Mantén a tus empleados 100% conectados vía Teams o Slack",
-      "text-1": "Mantener al equipo conectado con el programa de referidos es básico para su éxito. ¿Y dónde está el equipo? Correcto, en Teams o en Slack.",
-      "text-2": "En Refy puedes conectar tu aplicación de chat empresarial para que notifique al equipo cuando creas una nueva oferta de empleo, un post, o cuando un empleado le llega una nueva solicitud de recomendación",
-      "text-3": "En resumen, deja que Refy se encargue de la comunicación entre empresa y el equipo para que eso no te suponga ningún trabajo extra"
+      "title": "Keep your employees 100% connected via Teams or Slack",
+      "text-1": "Keeping the team connected to the referral program is critical to its success. And where is the team? Right, in Teams or Slack.",
+      "text-2": "In Refy you can connect your company chat application so that it notifies the team when you create a new job offer, a post, or when an employee receives a new recommendation request",
+      "text-3": "In short, let Refy take care of the communication between the company and the team so that you don't have to do any extra work"
     }
   }
 }

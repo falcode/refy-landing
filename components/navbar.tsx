@@ -6,7 +6,6 @@ import router from "next/router";
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/pro-solid-svg-icons";
-import { fontSize } from "@mui/material/node_modules/@mui/system";
 import { SwipeableDrawer } from "@material-ui/core";
 import React from "react";
 
@@ -25,31 +24,53 @@ const Navbar = () => {
     setState({ ...state, [anchor]: open });
   };
   const LinksList = () => (
-    <div className="flex items-center justify-between flex-1 mobile:flex-col">
-      <div className="flex items-center space-x-14 mobile:flex-col mobile:space-x-0 mobile:space-y-40">
+    <div className="flex items-center justify-between flex-1">
+      <div className="flex items-center space-x-14">
         <Link href="/">
           <a>{t("navbar.home")}</a>
         </Link>
         <Link href="/pricing">
           <a>{t("navbar.prices")}</a>
         </Link>
-        <Link href="/integrations">
-          <a>{t("navbar.integrations")}</a>
-        </Link>
-        <Link href="/successful-cases">
-          <a>{t("navbar.successful-cases")}</a>
-        </Link>
       </div>
       <div className="flex space-x-3">
         <a className="cursor-pointer text-xs" onClick={(_) => handleRoute("es")}>
-          Español
+          {t("navbar.spanish")}
         </a>
         <a className="cursor-pointer text-xs" onClick={(_) => handleRoute("en")}>
-          Ingles
+          {t("navbar.english")}
         </a>
       </div>
     </div>
   );
+
+  const SideBarLinks = () => (
+    <div className="w-40 h-full flex flex-col items-center justify-between py-24">
+      <div className="flex w-full flex-col items-center space-y-10">
+        <div className="h-px w-full bg-gray-100"></div>
+        <Link href="/">
+          <a onClick={toggleDrawer("navbar", false)}>{t("navbar.home")}</a>
+        </Link>
+        <div className="h-px w-full bg-gray-100"></div>
+        <Link href="/pricing">
+          <a onClick={toggleDrawer("navbar", false)}>{t("navbar.prices")}</a>
+        </Link>
+        <div className="h-px w-full bg-gray-100"></div>
+      </div>
+      <div className="flex w-full flex-col items-center space-y-10">
+        <div className="h-px w-full bg-gray-100"></div>
+        <a className="cursor-pointer text-xs" onClick={(_) => handleRoute("es")}>
+          {t("navbar.spanish")}
+        </a>
+        <div className="h-px w-full bg-gray-100"></div>
+        <a className="cursor-pointer text-xs" onClick={(_) => handleRoute("en")}>
+          {t("navbar.english")}
+        </a>
+        <div className="h-px w-full bg-gray-100"></div>
+      </div>
+    </div>
+  );
+
   return (
     <nav className="fixed top-0 left-0 right-0 w-full shadow bg-white z-20">
       <div className="max-w-7xl mx-auto flex h-16 items-center px-5 mobile:justify-between">
@@ -71,7 +92,7 @@ const Navbar = () => {
           onClose={toggleDrawer("navbar", false)}
           onOpen={toggleDrawer("navbar", true)}
         >
-          <LinksList></LinksList>
+          <SideBarLinks></SideBarLinks>
         </SwipeableDrawer>
       </div>
     </nav>
