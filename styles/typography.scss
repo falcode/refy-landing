@@ -54,6 +54,15 @@
     }
   }
 
+  &-navbar {
+    @extend .font;
+    font-family: $refy-firasans-font;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: $black-100;
+  }
+
   &-button {
     &-toggle {
       @extend .font;

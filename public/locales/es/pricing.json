@@ -2,28 +2,28 @@
   "title": "Precios",
 
   "banner": {
-    "title": "no bamo aser rico",
-    "subtitle": "carlo cabrong"
+    "title": "Estamos cambiando el juego, paga por una herramienta de verdad.",
+    "subtitle": "No hay pago por referido, es pago único mensual. Reclutación orgánica sin límites."
   },
 
   "card": {
     "currency": "€",
-    "frequency": "monthly",
+    "frequency": "mensual",
     "left": {
-      "title": "Free",
+      "title": "Gratis",
       "price": "0",
-      "options": ["Your own company", "5 employee accounts", "Points system without shop"]
+      "options": ["Tu propia empresa", "5 cuentas de empleados", "Sistema de premios por puntuación"]
 
     },
     "center": {
       "title": "Startup",
       "price": "190",
-      "options": ["Unlimited employee accounts", "Custom ATS integration", "Reward your employees", "Custom shop"]
+      "options": ["Sin límite de empleados", "Integración con tu ATS", "Recompensa a tus empleados", "Customiza las recompensas"]
     },
     "right": {
       "title": "Company",
       "price": "300",
-      "options": ["Startup pack & more", "Custom features", "Personal assistance", "Multiple ATS integration"]
+      "options": ["Todo el pack Startup y mas", "Funcionalidades personalizadas", "Asistencia personal", "Integranos en multiples ATS"]
     }
   }
 }

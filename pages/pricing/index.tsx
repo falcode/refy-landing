@@ -21,11 +21,10 @@ const Pricing: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{t("title")}</title>
+        <title>{t("title") + ' | Refy'}</title>
         <meta property="og:title" content={t("title")} key={t("title")} />
       </Head>
-      <div className="pt-16">
-
+      <div className="mt-28">
         {/* Banner 1 */}
         <div className="w-full px-10 py-12 bg-gray-50 flex items-center justify-center">
           <div className="w-full p-16 bg-primary rounded-lg ring-1 ring-gray-900 ring-opacity-5">

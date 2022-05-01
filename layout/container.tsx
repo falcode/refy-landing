@@ -9,7 +9,7 @@ const Container = ({
   bgColor: string;
   classes?: string;
 }) => (
-  <div className={`bg-${bgColor} w-full px-5 py-12`}>
+  <div className={`bg-${bgColor} w-full px-5 py-20`}>
     <div className={`max-w-7xl mx-auto ${classes}`}>{children}</div>
   </div>
 );

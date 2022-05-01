@@ -17,6 +17,7 @@ import {
   candidate2,
   candidate3,
 } from "../assets/svg";
+import { seat_code_white, tropicfeel_white } from "../assets/svg/companies";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSliders, faHeart, faCircleCheck, faHexagonExclamation } from "@fortawesome/pro-solid-svg-icons";
@@ -34,11 +35,13 @@ const Banner1 = () => (
     <div className="flex flex-col flex-1">
       <h1 className="font-big-title mb-10">{Translate("first.title")}</h1>
       <p className="font-subtitle mb-8">{Translate("first.subtitle")}</p>
-      <button className="button-primary">{Translate("first.button")}</button>
+      <a href="https://refyapp.com/signup-company" target="_blank" rel="noreferrer">
+        <button className="button-primary">{Translate("first.button")}</button>
+      </a>
       <p className="font-hint mt-4">{Translate("first.hint")}</p>
     </div>
     <div className="flex flex-1 items-center justify-center mobile:hidden">
-      <Image src={banner}></Image>
+      <Image src={banner} alt="Try Refy for Free"></Image>
     </div>
   </Container>
 );
@@ -96,10 +99,13 @@ const Banner2 = () => {
 const Banner3 = () => (
   <Container bgColor="primary" classes="flex flex-col items-center justify-center">
     <h1 className="font-title--white mb-10">{Translate("third.title")}</h1>
-    <div className="flex items-center justify-center mobile:flex-col mobile:space-x-0 mobile:space-y-5">
-      <Image src={logo} alt={logo} className="bg-white"></Image>
-      <Image src={logo} alt={logo} className="bg-white"></Image>
-      <Image src={logo} alt={logo} className="bg-white"></Image>
+    <div className="flex w-full items-center justify-evenly mobile:flex-col mobile:space-y-16">
+      <div className="w-80 h-full">
+        <Image src={seat_code_white} alt={"Seat:Code"} />
+      </div>
+      <div className="w-80 h-full">
+        <Image src={tropicfeel_white} alt={"Tropicfeel"}/>
+      </div>
     </div>
   </Container>
 );
@@ -164,7 +170,7 @@ const Banner5 = () => {
     <div className="flex flex-col justify-between w-80 h-80 bg-white rounded-xl drop-shadow-md">
       <div className="flex items-center justify-center bg-primary h-24 rounded-t-xl">
         <div className="rounded-lg flex items-center justify-center h-11 px-1 bg-white">
-          <Image src={logo} alt={logo}  width={38} height={35}></Image>
+          <Image src={logo} alt={logo} width={38} height={35}></Image>
         </div>
       </div>
       <div
@@ -266,7 +272,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{Translate("title")}</title>
+        <title>{Translate("title") + " | Refy"}</title>
         <meta property="og:title" content={Translate("title")} key={Translate("title")} />
       </Head>
       <div className="pt-16">

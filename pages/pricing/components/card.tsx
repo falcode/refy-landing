@@ -3,6 +3,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/pro-solid-svg-icons";
 import { Button } from "@material-ui/core";
 
+const TrialButton = () => (
+  <button></button>
+)
+
 export const CardLeft = (props: Price) => {
   return (
     <>
@@ -76,7 +80,7 @@ export const CardRight = (props: Price) => {
 export const OptionList = ({options} : {options:string[]}) =>  (
     <>
       {options.map((option, i) => (
-        <div className="flex items-center pb-4" key={i}>
+        <div className="flex font-hint items-center pb-4" key={i}>
           <FontAwesomeIcon
             icon={faCheck}
             style={{ marginRight: "10px", color: "green" }}
