@@ -4,6 +4,7 @@ export type Price = {
   price: string;
   frequency: string;
   options: string[];
+  button: string;
 }
 
 export default Price;

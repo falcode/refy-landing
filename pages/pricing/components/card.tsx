@@ -1,11 +1,6 @@
 import { Price } from "../types/card.type";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/pro-solid-svg-icons";
-import { Button } from "@material-ui/core";
-
-const TrialButton = () => (
-  <button></button>
-)
 
 export const CardLeft = (props: Price) => {
   return (
@@ -19,11 +14,11 @@ export const CardLeft = (props: Price) => {
             <span className="text-gray-500">/{props.frequency}</span>
           </div>
         </div>
-        <div className="h-60 bg-gray-50 rounded-b-lg p-6 flex flex-col justify-between">
-          <div>
+        <div className="h-72 bg-gray-50 rounded-b-lg p-6 flex flex-col items-center justify-between">
+          <div className="w-full">
             <OptionList options={props.options}></OptionList>
           </div>
-          <Button variant="contained">Start your trial</Button>
+          <button className="button-outline--primary">{props.button}</button>
         </div>
       </div>
     </>
@@ -43,11 +38,11 @@ export const CardCenter = (props: Price) => {
             <span className="text-gray-500">/{props.frequency}</span>
           </div>
         </div>
-        <div className="h-72 bg-gray-50 rounded-b-lg p-6 flex flex-col justify-between">
-          <div>
+        <div className="h-72 bg-gray-50 rounded-b-lg p-6 flex flex-col items-center justify-between">
+          <div className="w-full">
             <OptionList options={props.options}></OptionList>
           </div>
-          <Button variant="contained" color="primary">Start your trial</Button>
+          <button className="button-primary">{props.button}</button>
         </div>
       </div>
     </>
@@ -66,11 +61,11 @@ export const CardRight = (props: Price) => {
             <span className="text-gray-500">/{props.frequency}</span>
           </div>
         </div>
-        <div className="h-60 bg-gray-50 rounded-b-lg p-6 flex flex-col justify-between">
-          <div>
+        <div className="h-72 bg-gray-50 rounded-b-lg p-6 flex flex-col items-center justify-between">
+          <div className="w-full">
             <OptionList options={props.options}></OptionList>
           </div>
-          <Button variant="contained">Start your trial</Button>
+          <button className="button-outline--primary">{props.button}</button>
         </div>
       </div>
     </>

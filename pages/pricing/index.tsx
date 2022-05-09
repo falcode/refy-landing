@@ -15,6 +15,7 @@ const Pricing: NextPage = () => {
       price: t(`card.${option}.price`),
       frequency: t(`card.frequency`),
       options: t(`card.${option}.options`, { returnObjects: true }),
+      button: t(`card.${option}.button`)
     };
   };
 

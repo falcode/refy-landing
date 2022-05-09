@@ -17,4 +17,11 @@
     background-color: $primary;
   }
 
+  &-outline--primary {
+    @extend .button;
+    color: $primary;
+    border: 1px solid $primary;
+    background-color: $white;
+  }
+
 }
