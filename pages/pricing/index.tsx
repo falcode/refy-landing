@@ -1,8 +1,7 @@
 import Head from "next/head";
 import type { NextPage } from "next";
-import { Price } from "./types/card.type";
 import { useTranslation } from "next-i18next";
-import { CardCenter, CardLeft, CardRight } from "./components/card";
+import { CardCenter, CardLeft, CardRight, Price } from "./components/card";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 const Pricing: NextPage = () => {
