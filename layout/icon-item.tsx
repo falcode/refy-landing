@@ -7,7 +7,7 @@ const IconItem = ({icon, title, text}: { icon: IconProp; title: string; text: st
       <FontAwesomeIcon icon={icon} className="font-icon color-primary"></FontAwesomeIcon></div>
     <div className="flex flex-col px-4">
       <h3 className="font-item-title">{title}</h3>
-      <p className="font-item-text mt-1">{text}</p>
+      <p className="font-item-text mt-1" dangerouslySetInnerHTML={{__html: text}}></p>
     </div>
   </div>
 );

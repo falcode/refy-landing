@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="m">
-      <change afterPath="$PROJECT_DIR$/assets/svg/job-item.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/icon-item.tsx" afterDir="false" />
+    <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="mejoras home">
+      <change afterPath="$PROJECT_DIR$/assets/svg/employees.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/image-card.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/filter_candidates.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/filter_candidates.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/candidate.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/candidate2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/candidate3.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/svg/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/container.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next-i18next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next-i18next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/icon-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/icon-item.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/es/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es/common.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/locales/es/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es/home.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/components/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme-extend-tailwind/theme.extend.breakpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/theme-extend-tailwind/theme.extend.breakpoints.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +59,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/svg" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -74,8 +69,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/layout" />
       <recent name="$PROJECT_DIR$/assets/svg" />
+      <recent name="$PROJECT_DIR$/layout" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -133,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653990986586</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mejoras home">
+      <created>1654009447975</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654009447975</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +154,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="m" />
-    <option name="LAST_COMMIT_MESSAGE" value="m" />
+    <MESSAGE value="mejoras home" />
+    <option name="LAST_COMMIT_MESSAGE" value="mejoras home" />
   </component>
 </project>

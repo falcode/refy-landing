@@ -1,6 +1,7 @@
 $primary: #FE6680;
 $blue: #133273;
 $grey: #434F59;
+$grey-blue: #f5f6fa;
 
 $black-100: #000000CC;
 $white: #fff;
@@ -19,16 +20,20 @@ $white: #fff;
     background-color: $primary;
   }
 
+  &-grey-blue {
+    background-color: $grey-blue;
+  }
+
 }
 
 .color {
 
   &-primary {
-    color: $primary;
+    color: $primary !important;
   }
 
   &-white {
-    color: $white;
+    color: $white !important;
   }
 
 }
