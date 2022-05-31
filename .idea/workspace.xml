@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="mejoras home">
-      <change afterPath="$PROJECT_DIR$/assets/svg/employees.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout/image-card.tsx" afterDir="false" />
+    <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="estructura acabada">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/candidate.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/candidate2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/candidate3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/icon-item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/icon-item.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/locales/es/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es/home.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/typography.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654009447975</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="estructura acabada">
+      <created>1654015603615</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654015603615</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +153,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="m" />
     <MESSAGE value="mejoras home" />
-    <option name="LAST_COMMIT_MESSAGE" value="mejoras home" />
+    <MESSAGE value="estructura acabada" />
+    <option name="LAST_COMMIT_MESSAGE" value="estructura acabada" />
   </component>
 </project>

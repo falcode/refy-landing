@@ -29,14 +29,16 @@ function Translate(text: string, array?: boolean): string {
 }
 
 const Banner = () => (
-  <Container bgColor="white" classes="flex items-center">
-    <div className="flex flex-col w-3/5 mobile:w-full">
-      <h1 className="font-big-title mb-5">{Translate("first.title")}</h1>
-      <p className="font-subtitle mb-8">{Translate("first.subtitle")}</p>
-      <a href="https://refyapp.com/signup-company" target="_blank" rel="noreferrer">
-        <button className="button-primary">{Translate("first.button")}</button>
-      </a>
-      <p className="font-hint mt-4">{Translate("first.hint")}</p>
+  <Container bgColor="white" classes="flex mobile:flex-col my-12">
+    <div className="flex flex-col w-3/5 desktop:px-5 mobile:w-full mobile:mb-10">
+      <h1 className="font-big-title mobile:text-center mb-5">{Translate("banner.title")}</h1>
+      <p className="font-subtitle mobile:text-center mb-8">{Translate("banner.subtitle")}</p>
+      <div className="flex mobile:justify-center">
+        <a href="https://refyapp.com/signup-company" target="_blank" rel="noreferrer">
+          <button className="button-primary">{Translate("first.button")}</button>
+        </a>
+      </div>
+      <p className="font-hint mobile:text-center mt-4">{Translate("banner.hint")}</p>
     </div>
     <div className="flex w-2/5 mobile:w-full items-center justify-center mobile:hidden">
       <Image src={banner} alt="Try Refy for Free"></Image>
@@ -46,7 +48,7 @@ const Banner = () => (
 
 const Companies = () => (
   <Container bgColor="primary" classes="flex flex-col items-center justify-center">
-    <h1 className="font-subtitle color-white mb-10">{Translate("third.title")}</h1>
+    <h1 className="font-subtitle color-white mobile:text-center mb-10">{Translate("companies.title")}</h1>
     <div className="flex w-full items-center justify-evenly mobile:flex-col mobile:space-y-16">
       <div className="w-80 h-full">
         <Image src={seat_code_white} alt={"Seat:Code"}/>
@@ -62,8 +64,8 @@ const ReferralProgramBenefits = () => {
   return (
     <Container bgColor="white" classes="flex mobile:flex-col flex-row-reverse">
       <div className="flex flex-col w-3/5 desktop:px-5 mobile:w-full mobile:mb-10">
-        <h1 className="font-title">{Translate("referral-program-benefits.title")}</h1>
-        <h3 className="font-subtitle mt-5 mb-10" dangerouslySetInnerHTML={{__html: Translate("referral-program-benefits.subtitle")}}></h3>
+        <h1 className="font-title mobile:text-center">{Translate("referral-program-benefits.title")}</h1>
+        <h3 className="font-subtitle mobile:text-center mt-5 mb-10" dangerouslySetInnerHTML={{__html: Translate("referral-program-benefits.subtitle")}}></h3>
         <IconItem icon={faTimer} title={Translate("referral-program-benefits.time.title")} text={Translate("referral-program-benefits.time.text")}></IconItem>
         <IconItem icon={faGem} title={Translate("referral-program-benefits.quality.title")} text={Translate("referral-program-benefits.quality.text")}/>
         <IconItem icon={faSackDollar} title={Translate("referral-program-benefits.cost.title")} text={Translate("referral-program-benefits.cost.text")}></IconItem>
@@ -98,7 +100,7 @@ const ReferralProgramSettings = () => {
     <Container bgColor="white" classes="flex mobile:flex-col">
       <div className="flex flex-col w-3/5 desktop:px-5 mobile:w-full mobile:mb-10">
         <h1 className="font-title mobile:text-center">{Translate("referral-program-settings.title")}</h1>
-        <h2 className="font-subtitle mt-5 mb-10 mobile:text-center">{Translate("referral-program-settings.subtitle")}</h2>
+        <h2 className="font-subtitle mobile:text-center mt-5 mb-10 mobile:text-center">{Translate("referral-program-settings.subtitle")}</h2>
         <div className="flex mobile:justify-center">
           <div className="flex bg-gray-100 rounded-xl items-center justify-center mb-8 cursor-pointer">
             {["advocacy", "money", "mix"].map((program, i) => (
@@ -114,7 +116,7 @@ const ReferralProgramSettings = () => {
             ))}
           </div>
         </div>
-        <p className="font-text" dangerouslySetInnerHTML={{__html: Translate(`referral-program-settings.${selectedProgram}.text`)}}></p>
+        <p className="font-text mobile:text-center" dangerouslySetInnerHTML={{__html: Translate(`referral-program-settings.${selectedProgram}.text`)}}></p>
       </div>
       <div className="flex flex-col w-2/5 mobile:w-full items-center justify-center">
         <Image src={employees} alt="Candidate 1"></Image>
@@ -134,8 +136,8 @@ const ReferralProgramSettings = () => {
 const Link = () => (
   <Container bgColor="white" classes="flex mobile:flex-col flex-row-reverse">
     <div className="flex flex-col w-3/5 desktop:px-5 mobile:w-full mobile:mb-10">
-      <h1 className="font-title mb-10">{Translate("link.title")}</h1>
-      <p className="font-text" dangerouslySetInnerHTML={{__html: Translate("link.text")}}></p>
+      <h1 className="font-title mobile:text-center mb-10">{Translate("link.title")}</h1>
+      <p className="font-text mobile:text-center" dangerouslySetInnerHTML={{__html: Translate("link.text")}}></p>
     </div>
     <div className="flex flex-col w-2/5 mobile:w-full items-center justify-center">
       <Image src={job_item} alt="Job item"></Image>
@@ -146,8 +148,8 @@ const Link = () => (
 const FilterCandidates = () => (
   <Container bgColor="white" classes="flex mobile:flex-col">
     <div className="flex flex-col w-3/5 desktop:px-5 mobile:w-full mobile:mb-10">
-      <h1 className="font-title mb-10">{Translate("filter-candidates.title")}</h1>
-      <p className="font-text" dangerouslySetInnerHTML={{__html: Translate("filter-candidates.text")}}></p>
+      <h1 className="font-title mobile:text-center mb-10">{Translate("filter-candidates.title")}</h1>
+      <p className="font-text mobile:text-center" dangerouslySetInnerHTML={{__html: Translate("filter-candidates.text")}}></p>
     </div>
     <div className="flex flex-col w-2/5 mobile:w-full items-center justify-center">
       <Image src={filter_candidates} alt="Filter candidates"></Image>
@@ -158,8 +160,8 @@ const FilterCandidates = () => (
 const Integrations = () => (
   <Container bgColor="white" classes="flex mobile:flex-col flex-row-reverse">
     <div className="flex flex-col w-3/5 desktop:px-5 mobile:w-full mobile:mb-10">
-      <h1 className="font-title mb-10">{Translate("integrations.title")}</h1>
-      <p className="font-text" dangerouslySetInnerHTML={{__html: Translate("integrations.text")}}></p>
+      <h1 className="font-title mobile:text-center mb-10">{Translate("integrations.title")}</h1>
+      <p className="font-text mobile:text-center" dangerouslySetInnerHTML={{__html: Translate("integrations.text")}}></p>
     </div>
     <div className="flex flex-col w-2/5 mobile:w-full items-center justify-center">
       <Image src={integrations} alt="Integrations"></Image>
@@ -170,8 +172,8 @@ const Integrations = () => (
 const Channels = () => (
   <Container bgColor="white" classes="flex mobile:flex-col">
     <div className="flex flex-col w-3/5 desktop:px-5 mobile:w-full mobile:mb-10">
-      <h1 className="font-title mb-10">{Translate("channels.title")}</h1>
-      <p className="font-text" dangerouslySetInnerHTML={{__html: Translate("channels.text")}}></p>
+      <h1 className="font-title mobile:text-center mb-10">{Translate("channels.title")}</h1>
+      <p className="font-text mobile:text-center" dangerouslySetInnerHTML={{__html: Translate("channels.text")}}></p>
     </div>
     <div className="flex flex-col w-2/5 mobile:w-full items-center justify-center">
       <Image src={channels} alt="channels"></Image>
