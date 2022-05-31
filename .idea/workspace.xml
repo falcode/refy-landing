@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/postgres-data/pg_stat_tmp/db_0.stat" beforeDir="false" afterPath="$PROJECT_DIR$/postgres-data/pg_stat_tmp/db_0.stat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postgres-data/pg_stat_tmp/db_13757.stat" beforeDir="false" afterPath="$PROJECT_DIR$/postgres-data/pg_stat_tmp/db_13757.stat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postgres-data/pg_stat_tmp/global.stat" beforeDir="false" afterPath="$PROJECT_DIR$/postgres-data/pg_stat_tmp/global.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pricing/components/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pricing/components/card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pricing/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pricing/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pricing/types/card.type.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +101,7 @@
       <workItem from="1649625773400" duration="11266000" />
       <workItem from="1649716653555" duration="3233000" />
       <workItem from="1651240272150" duration="206000" />
+      <workItem from="1653125958184" duration="1751000" />
     </task>
     <servers />
   </component>

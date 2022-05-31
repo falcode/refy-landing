@@ -1,4 +1,3 @@
-import { Price } from "../types/card.type";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck } from "@fortawesome/pro-solid-svg-icons";
 
@@ -74,7 +73,7 @@ export const CardRight = (props: Price) => {
 
 export const OptionList = ({options} : {options:string[]}) =>  (
     <>
-      {options.map((option, i) => (
+      {options?.map((option, i) => (
         <div className="flex font-hint items-center pb-4" key={i}>
           <FontAwesomeIcon
             icon={faCheck}
@@ -87,5 +86,13 @@ export const OptionList = ({options} : {options:string[]}) =>  (
     </>
   );
 
+export type Price = {
+  title: string;
+  currency: string;
+  price: string;
+  frequency: string;
+  options: string[];
+  button: string;
+}
 
 export default  OptionList;
