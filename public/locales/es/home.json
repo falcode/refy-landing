@@ -85,16 +85,16 @@
 
   "filter-candidates": {
     "title": "Filtra candidatos creando preguntas para los miembros de tu equipo.",
-    "text": "Ya que van a obtener una buena recompensa, vamos a pedir a los miembros del equipo que nos ayuden un poco a filtrar candidatos, ¿no?.<br><br>En Refy puedes crear preguntas no sólo para los candidatos, sino también pr los miembros del equipo: si el candidato comparte los valores culturales de la empresa, su nivel de inglés o su rango salarial esperado.<br><br>Y es que al final no es solo atraer candidatos, sino conseguir que todo el equipo se implique en atraer perfiles de calidad y optimizar el proceso de selección"
+    "text": "Ya que van a obtener una buena recompensa, vamos a pedir a los miembros del equipo que nos ayuden un poco a filtrar candidatos, ¿no?.<br><br>En Refy puedes crear preguntas no sólo para los candidatos, sino también pr los miembros del equipo: si el candidato comparte los valores culturales de la empresa, su nivel de inglés o su rango salarial esperado.<br><br>Y es que al final no es solo atraer candidatos, sino conseguir que todo el equipo se implique en atraer perfiles de calidad y optimizar el proceso de selección."
   },
 
   "integrations": {
     "title": "Estamos 100% integrados con tu ATS.",
-    "text": "Nos integramos con tu Applicant Tracking System (ATS) para que Refy no te suponga una carga adicional de trabajo.<br><br>Cuando publiques una oferta en tu ATS, la publicaremos automáticamente en Refy para que puedan verla tus empleados.<br><br>De la misma forma, cuando se recomiende un nuevo candidato lo  mandaremos a tu ATS para que lo puedas gestionar adecuadamente.<br><br>¿Y si no tienes ATS? No pasa nada, puedes gestionar de forma fácil las candidaturas de Refy"
+    "text": "Nos integramos con tu Applicant Tracking System (ATS) para que Refy no te suponga una carga adicional de trabajo.<br><br>Cuando publiques una oferta en tu ATS, la publicaremos automáticamente en Refy para que puedan verla tus empleados.<br><br>De la misma forma, cuando se recomiende un nuevo candidato lo  mandaremos a tu ATS para que lo puedas gestionar adecuadamente.<br><br>¿Y si no tienes ATS? No pasa nada, puedes gestionar de forma fácil las candidaturas de Refy."
   },
 
   "channels": {
     "title": "Mantén a tus empleados 100% conectados vía Teams o Slack.",
-    "text": "Mantener al equipo conectado con el programa de referidos es básico para su éxito. ¿Y dónde está el equipo? Correcto, en Teams o en Slack.<br><br>En Refy puedes conectar tu aplicación de chat empresarial para que notifique al equipo cuando creas una nueva oferta de empleo, un post, o cuando un empleado le llega una nueva solicitud de recomendación<br><br>En resumen, deja que Refy se encargue de la comunicación entre empresa y el equipo para que eso no te suponga ningún trabajo extra"
+    "text": "Mantener al equipo conectado con el programa de referidos es básico para su éxito. ¿Y dónde está el equipo? Correcto, en Teams o en Slack.<br><br>En Refy puedes conectar tu aplicación de chat empresarial para que notifique al equipo cuando creas una nueva oferta de empleo, un post, o cuando un empleado le llega una nueva solicitud de recomendación.<br><br>En resumen, deja que Refy se encargue de la comunicación entre empresa y el equipo para que eso no te suponga ningún trabajo extra."
   }
 }
