@@ -185,8 +185,8 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>{Translate("title") + " | Refy"}</title>
-        <meta property="og:title" content={Translate("title")} key={Translate("title")}/>
+        <title>{"Refy - " + Translate("banner.title")}</title>
+        <meta property="og:title" content={Translate("title")} key={"Refy - " + Translate("banner.title")}/>
       </Head>
       <div className="pt-16">
         <Banner></Banner> <Companies></Companies> <ReferralProgramBenefits></ReferralProgramBenefits>
