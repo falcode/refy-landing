@@ -21,11 +21,11 @@
 
   &-title {
     @extend .font;
-    font-family: $refy-firasans-font;
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-family: $refy-nexa-font;
+    font-size: 2.25rem;
+    line-height: 3rem;
     font-weight: bold;
-    color: $black-100;
+    color: $blue;
     &--white {
       @extend .font-title;
       color: white;
@@ -36,9 +36,24 @@
     @extend .font;
     font-family: $refy-firasans-font;
     font-weight: normal;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     line-height: 1.75rem;
+    color: $black-100;
+    span {
+      font-weight: bold;
+    }
+  }
+
+  &-text {
+    @extend .font;
+    font-family: $refy-firasans-font;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 2rem;
     color: $grey;
+    span {
+      font-weight: bold;
+    }
   }
   
   &-hint {
@@ -57,7 +72,7 @@
   &-navbar {
     @extend .font;
     font-family: $refy-firasans-font;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 1rem;
     line-height: 1.1875rem;
     color: $black-100;
@@ -67,14 +82,36 @@
     &-toggle {
       @extend .font;
       font-family: $refy-firasans-font;
-      font-size: 1.25rem;
+      font-size: 1.125rem;
       line-height: 3rem;
       font-weight: normal;
       color: $black-100;
       &-active {
         color: $white;
-        font-weight: 500;
+        font-weight: bold;
       }
     }
+  }
+
+  &-item {
+    @extend .font;
+    font-family: $refy-firasans-font;
+    color: $black-100;
+    &-title {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      font-weight: bold;
+    }
+    &-text {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+
+  &-icon{
+    font-size: 1rem;
   }
 }

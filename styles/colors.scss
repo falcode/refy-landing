@@ -4,3 +4,31 @@ $grey: #434F59;
 
 $black-100: #000000CC;
 $white: #fff;
+
+.border {
+
+  &-primary {
+    border-color: $primary;
+  }
+
+}
+
+.bg {
+
+  &-primary {
+    background-color: $primary;
+  }
+
+}
+
+.color {
+
+  &-primary {
+    color: $primary;
+  }
+
+  &-white {
+    color: $white;
+  }
+
+}

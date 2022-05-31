@@ -1,15 +1,13 @@
 .button {
   font-family: $refy-firasans-font;
-  font-weight: 500;
+  font-weight: bold;
   width: fit-content;
   text-transform: none;
-  padding: 0rem 2rem;
-  line-height: 3rem;
-  border-radius: 2rem;
+  padding: 0 2rem;
   font-size: 1.125rem;
-  &:hover {
-    cursor: pointer;
-  }
+  line-height: 2.75rem;
+  border-radius: 2rem;
+  cursor: pointer;
 
   &-primary {
     @extend .button;

@@ -9,3 +9,4 @@ export { default as filter_candidates } from "./filter_candidates.svg";
 export { default as candidate } from "./candidate.svg";
 export { default as candidate2 } from "./candidate2.svg";
 export { default as candidate3 } from "./candidate3.svg";
+export { default as job_item } from "./job-item.svg";

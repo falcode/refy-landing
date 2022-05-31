@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="69.36 0 215.96 292.82">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="340" height="512.55" viewBox="0 0 340 512.55">
   <defs>
     <filter id="Rectángulo_6" x="0" y="307.55" width="340" height="205" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
@@ -26,6 +26,27 @@
       <path id="Trazado_34" data-name="Trazado 34" d="M1153.225,165.483a42.539,42.539,0,0,1-3.035,9.686c-7.986,16.894,14.757,11.388,22.884,11.388,8.886,0,17.388,4.673,16.09-16.09-.555-8.869-7.2-16.09-16.09-16.09C1165.484,154.377,1154.812,157.75,1153.225,165.483Z" transform="translate(-437.786 2400.163)" fill="#2f2e41"/>
       <circle id="Elipse_26" data-name="Elipse 26" cx="13.075" cy="13.075" r="13.075" transform="translate(720.882 2560.566)" fill="#ffb6b6"/>
       <path id="Trazado_35" data-name="Trazado 35" d="M1194.314,314.443a45.256,45.256,0,0,1-63.338,4.577l3.883-10.835a11.652,11.652,0,0,1,9.9-6.8l2.47-.152,5.89-5.08s15.871-.567,15.636-.838l9.614,5.783-.008-.04,3.779.231a11.647,11.647,0,0,1,9.9,6.8Z" transform="translate(-425.198 2299.013)" fill="#fe6680"/>
+    </g>
+    <g id="Grupo_23" data-name="Grupo 23">
+      <g id="Grupo_22" data-name="Grupo 22" transform="translate(274.438 1675)">
+        <g transform="matrix(1, 0, 0, 1, 618.56, 854.45)" filter="url(#Rectángulo_6)">
+          <rect id="Rectángulo_6-2" data-name="Rectángulo 6" width="322" height="187" rx="20" transform="translate(9 313.55)" fill="#fff"/>
+        </g>
+        <g id="Grupo_7" data-name="Grupo 7" transform="translate(655.29 1187)">
+          <g id="Grupo_12" data-name="Grupo 12" transform="translate(1 30.166)">
+            <circle id="Elipse_17" data-name="Elipse 17" cx="45.272" cy="45.272" r="45.272" fill="#f2f2f2"/>
+            <circle id="Elipse_18" data-name="Elipse 18" cx="14.762" cy="14.762" r="14.762" transform="translate(32.354 20.365)" fill="#ffb8b8"/>
+            <path id="bf427902-b9bf-4946-b5d7-5c1c7e04535e" d="M815.535,157.207s3.844-7.348-4.612-8.016c0,0-7.209-6.539-14.557-1.2a7.379,7.379,0,0,0-6.2,4.535s-3.152-1.2-3.845,2c0,0-2.307,6.68,0,12.692s3.073,6.68,3.073,6.68-1.618-7.46,7.607-8.128,17.689-6.447,18.458.9,1.614,4.029,1.614,4.029S824.375,160.213,815.535,157.207Z" transform="translate(-755.42 -131.832)" fill="#2f2e41"/>
+            <path id="Trazado_23" data-name="Trazado 23" d="M798.529,314.443a45.256,45.256,0,0,1-63.338,4.577l3.883-10.835a11.652,11.652,0,0,1,9.9-6.8l2.47-.152,5.89-5.08s15.871-.567,15.636-.838l9.614,5.783-.008-.04,3.779.231a11.647,11.647,0,0,1,9.9,6.8Z" transform="translate(-719.462 -239.069)" fill="#fe6680"/>
+          </g>
+        </g>
+      </g>
+      <rect id="Rectángulo_16" data-name="Rectángulo 16" width="106" height="24" rx="12" transform="translate(1051 2884)" fill="#f2f2f2"/>
+      <text id="_" data-name="" transform="translate(1173 2902)" fill="#4caf50" font-size="20" font-family="FontAwesome6Pro-Solid, 'Font Awesome \36  Pro'"><tspan x="0" y="0"></tspan></text>
+      <rect id="Rectángulo_17" data-name="Rectángulo 17" width="106" height="24" rx="12" transform="translate(1051 2925)" fill="#f2f2f2"/>
+      <text id="_2" data-name="" transform="translate(1173 2943)" fill="#4caf50" font-size="20" font-family="FontAwesome6Pro-Solid, 'Font Awesome \36  Pro'"><tspan x="0" y="0"></tspan></text>
+      <rect id="Rectángulo_18" data-name="Rectángulo 18" width="106" height="24" rx="12" transform="translate(1051 2966)" fill="#f2f2f2"/>
+      <text id="_3" data-name="" transform="translate(1173 2984)" fill="#f44336" font-size="20" font-family="FontAwesome6Pro-Solid, 'Font Awesome \36  Pro'"><tspan x="0" y="0"></tspan></text>
     </g>
   </g>
 </svg>

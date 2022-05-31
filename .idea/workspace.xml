@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="">
+    <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="m">
+      <change afterPath="$PROJECT_DIR$/assets/svg/job-item.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/icon-item.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pricing/components/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pricing/components/card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pricing/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pricing/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pricing/types/card.type.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/filter_candidates.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/filter_candidates.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next-i18next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next-i18next.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/es/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es/common.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/es/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es/home.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/components/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme-extend-tailwind/theme.extend.breakpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/theme-extend-tailwind/theme.extend.breakpoints.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +34,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -43,16 +64,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/layout" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/layout" />
+      <recent name="$PROJECT_DIR$/assets/svg" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -103,6 +126,14 @@
       <workItem from="1651240272150" duration="206000" />
       <workItem from="1653125958184" duration="1751000" />
     </task>
+    <task id="LOCAL-00001" summary="m">
+      <created>1653990986586</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653990986586</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,5 +149,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="m" />
+    <option name="LAST_COMMIT_MESSAGE" value="m" />
   </component>
 </project>

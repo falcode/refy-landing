@@ -14,6 +14,9 @@ module.exports = {
       backgroundColor,
       screens
     },
+    minWidth: {
+      '12': '3rem',
+    }
   },
   plugins: [],
 }

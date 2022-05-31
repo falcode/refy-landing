@@ -14,8 +14,7 @@ const Navbar = () => {
   const [state, setState] = React.useState({ navbar: false });
   const [clientWindowHeight, setClientWindowHeight] = React.useState("");
 
-  const [padding, setPadding] = React.useState(30);
-  const [boxShadow, setBoxShadow] = React.useState(0);
+  const [boxShadow, setBoxShadow] = React.useState(false);
 
   React.useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -27,14 +26,7 @@ const Navbar = () => {
   };
 
   React.useEffect(() => {
-    let backgroundTransparacyVar = +clientWindowHeight / 100;
-
-    if (backgroundTransparacyVar < 1) {
-      let paddingVar = 30 - backgroundTransparacyVar * 20;
-      let boxShadowVar = backgroundTransparacyVar * 0.1;
-      setPadding(paddingVar);
-      setBoxShadow(boxShadowVar);
-    }
+    setBoxShadow(+clientWindowHeight > 0);
   }, [clientWindowHeight]);
 
   const toggleDrawer = (anchor: string, open: boolean) => (event: React.KeyboardEvent | React.MouseEvent) => {
@@ -58,7 +50,10 @@ const Navbar = () => {
           <a className="font-navbar">{t("navbar.prices")}</a>
         </Link>
       </div>
-      <div className="flex space-x-3">
+      <a href="https://refyapp.com/signup-company" target="_blank" rel="noreferrer">
+        <button className="button-primary">{t("navbar.try")}</button>
+      </a>
+      <div className="hidden flex space-x-3">
         <a className="font-navbar cursor-pointer text-xs" onClick={(_) => handleRoute("es")}>
           {t("navbar.spanish")}
         </a>
@@ -70,7 +65,7 @@ const Navbar = () => {
   );
 
   const SideBarLinks = () => (
-    <div className="w-40 h-full flex flex-col items-center justify-between py-24">
+    <div className="w-60 h-full flex flex-col items-center justify-between py-24">
       <div className="flex w-full flex-col items-center space-y-10">
         <div className="h-px w-full bg-gray-100"></div>
         <Link href="/">
@@ -97,11 +92,8 @@ const Navbar = () => {
   );
 
   return (
-    <nav className="fixed top-0 left-0 right-0 w-full bg-white z-20" style={{
-      padding: `${padding}px 0px`,
-      boxShadow: `rgb(0 0 0 / ${boxShadow}) 0px 0px 20px 6px`,
-    }}>
-      <div className="max-w-7xl mx-auto flex h-16 items-center px-5 mobile:justify-between">
+    <nav className={"fixed top-0 left-0 right-0 w-full bg-white z-20" + (boxShadow ? " drop-shadow-sm" : "")}>
+      <div className="max-w-7xl mx-auto flex h-20 items-center px-5 mobile:justify-between">
         <div className="w-20 mr-20 h-full flex items-center">
           <Image src={logo} alt="Refy Logo"></Image>
         </div>
