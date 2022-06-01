@@ -40,3 +40,5 @@ export const PriceCard = (props: Price) => {
     </>
   );
 };
+
+export default PriceCard;
