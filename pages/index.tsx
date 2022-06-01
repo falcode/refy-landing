@@ -35,7 +35,7 @@ const Banner = () => (
       <p className="font-subtitle mobile:text-center mb-8">{Translate("banner.subtitle")}</p>
       <div className="flex mobile:justify-center">
         <a href="https://refyapp.com/signup-company" target="_blank" rel="noreferrer">
-          <button className="button-primary">{Translate("first.button")}</button>
+          <button className="button-primary">{Translate("banner.button")}</button>
         </a>
       </div>
       <p className="font-hint mobile:text-center mt-4">{Translate("banner.hint")}</p>
