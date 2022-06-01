@@ -93,6 +93,13 @@
     @extend .font;
     font-family: $refy-firasans-font;
     color: $black-100;
+    &-big-title {
+      font-family: $refy-nexa-font;
+      font-size: 1.75rem;
+      line-height: 2.25rem;
+      font-weight: bold;
+      color: $blue;
+    }
     &-title {
       font-size: 1.125rem;
       line-height: 1.75rem;

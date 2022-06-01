@@ -1,29 +1,28 @@
 {
-  "title": "Precios",
+  "title": "Precios y paquetes",
 
   "banner": {
-    "title": "Estamos cambiando el juego, paga por una herramienta de verdad.",
-    "subtitle": "No hay pago por referido, es pago único mensual. Reclutación orgánica sin límites."
+    "title": "Planes según las necesidades de tu empresa",
+    "subtitle": "Descubre nuestros planes."
   },
 
-  "card": {
-    "currency": "€",
-    "frequency": "mensual",
-    "left": {
-      "title": "Gratis",
-      "price": "0",
-      "options": ["Tu propia empresa", "5 cuentas de empleados", "Sistema de premios por puntuación"]
-
-    },
-    "center": {
+  "prices": {
+    "popular": "Popular",
+    "button": "Regístrate",
+    "startup": {
       "title": "Startup",
-      "price": "190",
-      "options": ["Sin límite de empleados", "Integración con tu ATS", "Recompensa a tus empleados", "Customiza las recompensas"]
+      "price": "Gratis",
+      "options": ["Referidos sin límite", "Equipos de hasta 5 personas", "Página de carrera", "Social Link", "Integración con ATS", "Integración con Teams o Slack", "Gamificación y puntos de fidelidad"]
     },
-    "right": {
-      "title": "Company",
-      "price": "300",
-      "options": ["Todo el pack Startup y mas", "Funcionalidades personalizadas", "Asistencia personal", "Integranos en multiples ATS"]
+    "business": {
+      "title": "Business",
+      "price": "199€ al mes",
+      "options": ["Funcionalidades del plan Startup", "Sin límite de empleados", "Dashboard y gestión de empleados", "Soporte"]
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "price": "Contacta con nuestro equipo de ventas",
+      "options": ["Funcionalidades del plan Business", "Módulo de movilidad interna", "Soporte dedicado vía Account Manager"]
     }
   }
 }

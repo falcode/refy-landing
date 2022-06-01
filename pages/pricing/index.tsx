@@ -1,56 +1,56 @@
 import Head from "next/head";
-import type { NextPage } from "next";
-import { useTranslation } from "next-i18next";
-import { CardCenter, CardLeft, CardRight, Price } from "./components/card";
-import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import type {NextPage} from "next";
+import {useTranslation} from "next-i18next";
+import {Price, PriceCard} from "./components/price-card";
+import {serverSideTranslations} from "next-i18next/serverSideTranslations";
+import Container from "../../layout/container";
 
-const Pricing: NextPage = () => {
-  const { t } = useTranslation("pricing");
+function Translate(text: string, array?: boolean): string {
+  const {t} = useTranslation("pricing");
+  return array ? t(text, {returnObjects: true}) : t(text);
+}
 
-  const CardProperties = (option: string): Price => {
+const Prices = () => {
+
+  const CardProperties = (option: string, popular: boolean): Price => {
     return {
-      title: t(`card.${option}.title`),
-      currency: t(`card.currency`),
-      price: t(`card.${option}.price`),
-      frequency: t(`card.frequency`),
-      options: t(`card.${option}.options`, { returnObjects: true }),
-      button: t(`card.${option}.button`)
+      title: Translate(`prices.${option}.title`),
+      price: Translate(`prices.${option}.price`),
+      options: Translate(`prices.${option}.options`, {returnObjects: true}),
+      button: Translate(`prices.button`),
+      popular: popular,
     };
   };
 
   return (
+    <Container bgColor="gray-100" classes="flex flex-col">
+      <h1 className="font-title text-center">{Translate("banner.title")}</h1>
+      <h2 className="font-subtitle text-center mt-5 mb-10" dangerouslySetInnerHTML={{__html: Translate("banner.subtitle")}}></h2>
+      <div className="w-full flex mobile:flex-col desktop:space-x-5 mobile:space-y-5">
+        <PriceCard {...CardProperties("startup", false)}></PriceCard>
+        <PriceCard {...CardProperties("business", true)}></PriceCard>
+        <PriceCard {...CardProperties("enterprise", false)}></PriceCard>
+      </div>
+    </Container>
+  );
+};
+
+const Pricing: NextPage = () => {
+  return (
     <>
       <Head>
-        <title>{t("title") + ' | Refy'}</title>
-        <meta property="og:title" content={t("title")} key={t("title")} />
+        <title>{Translate("title") + ' | Refy'}</title>
+        <meta property="og:title" content={Translate("title")} key={Translate("title")}/>
       </Head>
-      <div className="mt-28">
-        {/* Banner 1 */}
-        <div className="w-full px-10 py-12 bg-gray-50 flex items-center justify-center">
-          <div className="w-full p-16 bg-primary rounded-lg ring-1 ring-gray-900 ring-opacity-5">
-            <div className="pb-10 flex flex-col items-center justify-center">
-              <h1 className="text-white font-bold text-4xl">
-                {t("banner.title")}
-              </h1>
-              <span className="text-gray-100 text-xl">
-                {t("banner.subtitle")}
-              </span>
-            </div>
-            <div className="w-full flex items-center justify-center mobile:flex-col mobile:space-y-6">
-              <CardLeft {...CardProperties("left")}></CardLeft>
-              <CardCenter {...CardProperties("center")}></CardCenter>
-              <CardRight {...CardProperties("right")}></CardRight>
-            </div>
-          </div>
-        </div>
-
+      <div className="pt-16">
+        <Prices></Prices>
       </div>
     </>
   );
 };
 
-export const getStaticProps = async ({ locale }: { locale: string }) => ({
-  props: { ...(await serverSideTranslations(locale, ["common", "pricing"])) },
+export const getStaticProps = async ({locale}: { locale: string }) => ({
+  props: {...(await serverSideTranslations(locale, ["common", "pricing"]))},
 });
 
 export default Pricing;
