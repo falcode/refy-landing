@@ -1,15 +1,13 @@
 {
   "title": "Inicio",
-
   "banner": {
     "title": "El software para atraer talento a través de tu propio equipo.",
-    "subtitle": "Refy es el software que te permite crear un programa de referidos integral y llevar tu marca de empleador al siguiente nivel.",
+    "subtitle": "Refy es el software que te permite crear un <span>programa de referidos integral</span> y llevar tu <span>marca de empleador</span> al siguiente nivel.",
     "button": "Pruébalo gratis*",
     "hint": "*Sí, gratis para siempre hasta 5 empleados"
   },
-
   "referral-program-benefits": {
-    "title": "Hay mucho talento ahí fuera, sólo tienes que saber cómo llegar a él.",
+    "title": "Hay mucho talento ahí fuera, sólo tienes que saber cómo llegar a él",
     "subtitle": "El <span>88% de los recruiters</span> aseguran que la mejor fuente para obtener candidatos de calidad es el <span>programa de referidos</span>. ¿Por qué?",
     "time": {
       "title": "Menor tiempo de contratación",
@@ -32,69 +30,69 @@
       "text": "El programa de referidos también facilita la atracción de perfiles que encajen en la cultura de la empresa."
     }
   },
-
   "proposition": {
     "title": "¿Por qué Refy?",
     "subtitle": "<span>Atrae talento</span> de calidad, <span>ahorra dinero y tiempo</span> en tus procesos de selección y <span>convierte tus empleados</span> en los mejores <span>promotores</span>.",
     "advocacy": {
-      "title": "Premia con puntos de fidelidad y crea un ranking.",
-      "text": "Los miembros del equipo reciben puntos según su umplicación en el programa de referidos: compartir en Linkedin,, por candidato recomendado o contratado, etc."
+      "title": "Premia con puntos de fidelidad a todo el equipo",
+      "text": "Las personas del equipo reciben puntos según su implicación en el programa de referidos: candidatos inscritos, publicaciones compartidas, personas contratadas…"
     },
     "link": {
-      "title": "Cada miembro del equipo tiene un link único.",
+      "title": "Cada miembro del equipo tiene un link único",
       "text": "Distribuye las ofertas de empleo entre los miembros para que compartan sus links únicos con sus redes de contactos. Siempre sabrás de quén viene el candidato."
     },
     "engage": {
-      "title": "Mantén a tu equipo siempre conectado.",
-      "text": "Conecta Slack o Teams para notificar a tu equipo sobre las ofertas de trabajo o el estado de sus candidatos recomendados."
+      "title": "Mantén a tu equipo siempre conectado",
+      "text": "Conecta Slack o Teams para notificar a tu equipo sobre las ofertas de trabajo disponibles o el estado de los candidatos a los que hayan recomendado."
     }
   },
-
   "referral-program-settings": {
-    "title": "Un programa de referidos para cada empresa.",
+    "title": "Un programa de referidos para cada empresa",
     "subtitle": "Elige el programa de referidos que más se adapte a la cultura de tu empresa.",
-    "advocacy":
-      {
-        "title": "Por puntos",
-        "text": "Los programas de referidos con recompensa por salario funcionan, pero como se suele premiar sólo por candidato contratado, la participación del equipo es menor de lo que podría esperar.<br><br>Con Refy puedes crear un plan de referidos que premie también por compartir la oferta en Linkedin, recomendar un candidato o compartir publicaciones que promocionen la marca de empleador.<br><br>Los miembros del equipo pueden intercambiar los puntos por recompensas según la estrategia de la compañía: días de vacaciones, días de teletrabajo, camisetas o cualquier cosa que se te ocurra."
-      },
-    "money":
-      {
-        "title": "Por salario",
-        "text": "Los programas de referidos con recompensa por salario funcionan, pero como se suele premiar sólo por candidato contratado, la participación del equipo es menor de lo que podría esperar.<br><br>Con Refy puedes crear un plan de referidos que premie también por compartir la oferta en Linkedin, recomendar un candidato o compartir publicaciones que promocionen la marca de empleador.<br><br>Los miembros del equipo pueden intercambiar los puntos por recompensas según la estrategia de la compañía: días de vacaciones, días de teletrabajo, camisetas o cualquier cosa que se te ocurra."
-      },
-    "mix":
-      {
-        "title": "Mixto",
-        "text": "Los programas de referidos con recompensa por salario funcionan, pero como se suele premiar sólo por candidato contratado, la participación del equipo es menor de lo que podría esperar.<br><br>Con Refy puedes crear un plan de referidos que premie también por compartir la oferta en Linkedin, recomendar un candidato o compartir publicaciones que promocionen la marca de empleador.<br><br>Los miembros del equipo pueden intercambiar los puntos por recompensas según la estrategia de la compañía: días de vacaciones, días de teletrabajo, camisetas o cualquier cosa que se te ocurra."
-      },
+    "advocacy": {
+      "title": "Por puntos",
+      "text": "Los programas de referidos incentivados con una recompensa económica pueden funcionar o no según la cultura de tu empresa. Premiar únicamente a las que aportan nuevas personas al equipo, podría reducir fuertemente la participación.<br><br>Con Refy puedes crear un plan de forma que se incentiven todas aquellas acciones que ayudan a atraer talento y promocionar la marca de tu empresa: compartir la oferta en redes sociales, recomendar nuevas candidatos o compartir publicaciones de interés para el talento.<br><br>La gente de tu equipo podría intercambiar los puntos por otro tipo de recompensas: días de vacaciones, jornadas de teletrabajo, productos / servicios de tu empresa o cualquier tipo de experiencia que pueda ser interesante."
+    },
+    "money": {
+      "title": "Por salario",
+      "text": "Los programas de referidos incentivados con una recompensa económica pueden funcionar o no según la cultura de tu empresa. Premiar únicamente a las que aportan nuevas personas al equipo, podría reducir fuertemente la participación.<br><br>Con Refy puedes crear un plan de forma que se incentiven todas aquellas acciones que ayudan a atraer talento y promocionar la marca de tu empresa: compartir la oferta en redes sociales, recomendar nuevas candidatos o compartir publicaciones de interés para el talento.<br><br>La gente de tu equipo podría intercambiar los puntos por otro tipo de recompensas: días de vacaciones, jornadas de teletrabajo, productos / servicios de tu empresa o cualquier tipo de experiencia que pueda ser interesante."
+    },
+    "mix": {
+      "title": "Mixto",
+      "text": "Los programas de referidos incentivados con una recompensa económica pueden funcionar o no según la cultura de tu empresa. Premiar únicamente a las que aportan nuevas personas al equipo, podría reducir fuertemente la participación.<br><br>Con Refy puedes crear un plan de forma que se incentiven todas aquellas acciones que ayudan a atraer talento y promocionar la marca de tu empresa: compartir la oferta en redes sociales, recomendar nuevas candidatos o compartir publicaciones de interés para el talento.<br><br>La gente de tu equipo podría intercambiar los puntos por otro tipo de recompensas: días de vacaciones, jornadas de teletrabajo, productos / servicios de tu empresa o cualquier tipo de experiencia que pueda ser interesante."
+    },
     "image-card": {
-      "options": ["Candidato recomendado", "Candidato contratado", "Post de oferta", "Post de marca"],
-      "points": ["5 pts", "100 pts", "1 pts", "10 pts"]
+      "options": [
+        "Candidato recomendado",
+        "Candidato contratado",
+        "Post de oferta",
+        "Post de marca"
+      ],
+      "points": [
+        "5 pts",
+        "100 pts",
+        "1 pts",
+        "10 pts"
+      ]
     }
   },
-
   "companies": {
-    "title": "Algunas de las empresas que ya atraen talento con Refy."
+    "title": "Algunas de las empresas que ya atraen talento con Refy"
   },
-
   "link": {
-    "title": "Trazabilidad total: un link de oferta único para cada miembro del equipo.",
-    "text": "Una de las claves del programa de referidos integral es tener una buena trazabilidad de las ofertas compartidas.<br><br>En Refy cada miembro del equipo puede compartir sus links de oferta únicos con su red de contactos. Esto te permitirá conocer quiénes tienen mayor alcance o se esfuerzan más en difundir tus ofertas.<br><br>Además, cuando un candidato aplica a la oferta mediante el link, sabremos quién ha sido el referidor y le enviaremos la candidatura para que decida si quiere recomendarlo o no."
+    "title": "Trazabilidad total: un link de oferta único para cada miembro del equipo",
+    "text": "Una de las claves del programa de referidos de Refy es tener un control total sobre las ofertas compartidas públicamente.<br><br>En Refy, cada persona del equipo puede compartir sus enlaces únicos de oferta con quien quiera. Esto permite conocer quiénes son los que atraen más visitas o que se esfuerzan más en la difusión de las ofertas.<br><br>Además, cuando una candidato se inscribe a la oferta a través del enlace, es posible saber en todo momento quién le ha recomendado y le informaremos sobre la candidatura para que la pueda revisar."
   },
-
   "filter-candidates": {
-    "title": "Filtra candidatos creando preguntas para los miembros de tu equipo.",
-    "text": "Ya que van a obtener una buena recompensa, vamos a pedir a los miembros del equipo que nos ayuden un poco a filtrar candidatos, ¿no?.<br><br>En Refy puedes crear preguntas no sólo para los candidatos, sino también pr los miembros del equipo: si el candidato comparte los valores culturales de la empresa, su nivel de inglés o su rango salarial esperado.<br><br>Y es que al final no es solo atraer candidatos, sino conseguir que todo el equipo se implique en atraer perfiles de calidad y optimizar el proceso de selección."
+    "title": "Obtén más información de los candidatos usando las preguntas de filtro",
+    "text": "Desde Refy puedes crear preguntas para que las personas de tu equipo aporten más información acerca de los candidatos a los que han recomendado. Cuál es su nivel de inglés real, rango salarial esperado o mayor virtud por poner algunos ejemplos.<br><br>El objetivo debe ser que el equipo se implique en atraer al mejor talento posible optimizando los procesos de selección al máximo."
   },
-
   "integrations": {
-    "title": "Estamos 100% integrados con tu ATS.",
-    "text": "Nos integramos con tu Applicant Tracking System (ATS) para que Refy no te suponga una carga adicional de trabajo.<br><br>Cuando publiques una oferta en tu ATS, la publicaremos automáticamente en Refy para que puedan verla tus empleados.<br><br>De la misma forma, cuando se recomiende un nuevo candidato lo  mandaremos a tu ATS para que lo puedas gestionar adecuadamente.<br><br>¿Y si no tienes ATS? No pasa nada, puedes gestionar de forma fácil las candidaturas de Refy."
+    "title": "Estamos 100% integrados con tu ATS",
+    "text": "Nos integramos con tus herramientas de gestión de selección y RRHH (ATS, HCMS, ERPs…) reduciendo el trabajo administrativo todo lo posible.<br><br>Cuando publiques una oferta en tu sistema, se copiará automáticamente en Refy para que todo tu equipo pueda verla.<br><br>Cuando una persona se inscriba a una oferta en Refy, se copiará automáticamente en tu sistema para que la puedas gestionar junto al resto.<br><br>¿Qué pasa si no tienes ninguna plataforma? ¡No hay problema, tenemos solución para ello!"
   },
-
   "channels": {
-    "title": "Mantén a tus empleados 100% conectados vía Teams o Slack.",
-    "text": "Mantener al equipo conectado con el programa de referidos es básico para su éxito. ¿Y dónde está el equipo? Correcto, en Teams o en Slack.<br><br>En Refy puedes conectar tu aplicación de chat empresarial para que notifique al equipo cuando creas una nueva oferta de empleo, un post, o cuando un empleado le llega una nueva solicitud de recomendación.<br><br>En resumen, deja que Refy se encargue de la comunicación entre empresa y el equipo para que eso no te suponga ningún trabajo extra."
+    "title": "Mantén a tus empleados 100% conectados vía Teams o Slack",
+    "text": "Puedes conectar tu herramienta de comunicación interna para que las personas de tu equipo reciban una notificación cuando añades una nueva oferta de empleo, una publicación o cuando a un empleado le llega una nueva solicitud de recomendación.<br><br>Refy se encarga de la comunicación entre tu y tu equipo para que no tengas que preocuparte de nada."
   }
 }

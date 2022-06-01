@@ -32,7 +32,7 @@ const Banner = () => (
   <Container bgColor="white" classes="flex mobile:flex-col my-12">
     <div className="flex flex-col w-3/5 desktop:px-5 mobile:w-full mobile:mb-10">
       <h1 className="font-big-title mobile:text-center mb-5">{Translate("banner.title")}</h1>
-      <p className="font-subtitle mobile:text-center mb-8">{Translate("banner.subtitle")}</p>
+      <p className="font-subtitle mobile:text-center mb-8" dangerouslySetInnerHTML={{__html: Translate("banner.subtitle")}}></p>
       <div className="flex mobile:justify-center">
         <a href="https://refyapp.com/signup-company" target="_blank" rel="noreferrer">
           <button className="button-primary">{Translate("banner.button")}</button>
