@@ -9,6 +9,10 @@ function Translate(text: string, array?: boolean): string {
   const {t} = useTranslation("pricing");
   return array ? t(text, {returnObjects: true}) : t(text);
 }
+function TranslateArray(text: string): string[] {
+  const {t} = useTranslation("pricing");
+  return t(text, {returnObjects: true});
+}
 
 const Prices = () => {
 
@@ -16,7 +20,7 @@ const Prices = () => {
     return {
       title: Translate(`prices.${option}.title`),
       price: Translate(`prices.${option}.price`),
-      options: Translate(`prices.${option}.options`, {returnObjects: true}),
+      options: TranslateArray(`prices.${option}.options`),
       button: Translate(`prices.button`),
       popular: popular,
     };
