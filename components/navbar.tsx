@@ -81,7 +81,7 @@ const Navbar = () => {
           <LinksList></LinksList>
         </div>
 
-        <div className="hidden mobile:flex">
+        <div className="hidden cursor-pointer mobile:flex">
           <FontAwesomeIcon icon={faBars} style={{ fontSize: "1.3rem" }} onClick={toggleDrawer("navbar", true)}></FontAwesomeIcon>
         </div>
 
