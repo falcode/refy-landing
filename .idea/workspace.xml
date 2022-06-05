@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="Cambios">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pricing/components/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pricing/components/price-card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pricing/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pricing/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/es/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es/common.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/es/pricing.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es/pricing.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/typography.scss" afterDir="false" />
-    </list>
+    <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="Cambios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,6 +107,7 @@
       <workItem from="1649716653555" duration="3233000" />
       <workItem from="1651240272150" duration="206000" />
       <workItem from="1653125958184" duration="1751000" />
+      <workItem from="1654296665196" duration="12000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1653990986586</created>
