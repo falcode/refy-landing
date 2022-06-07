@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <>
       <footer className="w-full h-48 bg-white flex items-center justify-center ring-1 ring-gray-900 ring-opacity-5">
-        <Container bgColor="white" classes="flex items-center justify-evenly">
+        <Container bgColor="white" classes="flex mobile:flex-col items-center mobile:items-start justify-evenly mobile:space-y-3">
           <p className="text-gray-400">{t('footer.title')}</p>
           <Link href="/terms">
             <a className="text-gray-400 underline">{t('footer.terms')}</a>
