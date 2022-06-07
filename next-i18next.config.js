@@ -6,7 +6,7 @@ module.exports = {
     defaultLocale: "es",
     localePath: path.resolve("./public/locales"),
     defaultNS: "common",
-    ns: ["common", "home", "pricing", "integrations", "successful-cases"],
+    ns: ["common", "home", "pricing", "privacy", "cookies", "terms"],
   },
   reloadOnPrerender: true,
 };
