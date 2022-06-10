@@ -1,7 +1,10 @@
 {
   "navbar": {
     "home": "Inicio",
-    "prices": "Precio",
+    "prices": "Precios",
+    "blog": "Blog",
+    "demo": "Solicita una demo",
+    "login": "Iniciar sesión",
     "integrations": "Integraciones",
     "successful-cases": "Casos de éxito",
     "english": "Inglés",

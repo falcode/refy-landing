@@ -43,16 +43,26 @@ const Navbar = () => {
   const LinksList = () => (
     <div className="flex items-center justify-between flex-1">
       <div className="flex items-center space-x-14">
-        <Link href="/">
-          <a className="font-navbar">{t("navbar.home")}</a>
-        </Link>
         <Link href="/pricing">
           <a className="font-navbar">{t("navbar.prices")}</a>
         </Link>
+        <Link href="https://refy.substack.com">
+          <a className="font-navbar" target="_blank">{t("navbar.blog")}</a>
+        </Link>
       </div>
-      <a href="https://refyapp.com/signup-company" target="_blank" rel="noreferrer">
-        <button className="button-primary">{t("navbar.try")}</button>
-      </a>
+
+      <div className="flex items-center space-x-8">
+        <Link href="https://refyapp.com">
+          <a className="font-navbar">{t("navbar.login")}</a>
+        </Link>
+        <Link href="https://refyapp.com">
+          <a className="font-navbar">{t("navbar.demo")}</a>
+        </Link>
+        <a href="https://refyapp.com/signup-company" target="_blank" rel="noreferrer">
+          <button className="button-primary">{t("navbar.try")}</button>
+        </a>
+      </div>
+
       <div className="hidden flex space-x-3">
         <a className="font-navbar cursor-pointer text-xs" onClick={(_) => handleRoute("es")}>
           {t("navbar.spanish")}
@@ -76,6 +86,10 @@ const Navbar = () => {
           <a className="font-navbar" onClick={toggleDrawer("navbar", false)}>{t("navbar.prices")}</a>
         </Link>
         <div className="h-px w-full bg-gray-100"></div>
+        <Link href="https://refy.substack.com">
+          <a className="font-navbar" target="_blank" onClick={toggleDrawer("navbar", false)}>{t("navbar.blog")}</a>
+        </Link>
+        <div className="h-px w-full bg-gray-100"></div>
       </div>
       <div className="flex w-full flex-col items-center space-y-10">
         <div className="h-px w-full bg-gray-100"></div>
@@ -94,8 +108,10 @@ const Navbar = () => {
   return (
     <nav className={"fixed top-0 left-0 right-0 w-full bg-white z-20" + (boxShadow ? " drop-shadow-sm" : "")}>
       <div className="max-w-7xl mx-auto flex h-20 items-center px-5 mobile:justify-between">
-        <div className="w-20 mr-20 h-full flex items-center">
-          <Image src={logo} alt="Refy Logo"></Image>
+        <div className="w-20 mr-16 h-full flex items-center">
+          <Link href="/">
+            <Image className="cursor-pointer" src={logo} alt="Refy Logo"></Image>
+          </Link>
         </div>
 
         <div className="flex w-full mobile:hidden">
