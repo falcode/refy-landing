@@ -1,8 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../assets/svg/logo-primary.svg";
-import { Locale } from "../types";
-import router from "next/router";
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/pro-solid-svg-icons";
@@ -62,15 +60,6 @@ const Navbar = () => {
           <button className="button-primary">{t("navbar.try")}</button>
         </a>
       </div>
-
-      <div className="hidden flex space-x-3">
-        <a className="font-navbar cursor-pointer text-xs" onClick={(_) => handleRoute("es")}>
-          {t("navbar.spanish")}
-        </a>
-        <a className="font-navbar cursor-pointer text-xs" onClick={(_) => handleRoute("en")}>
-          {t("navbar.english")}
-        </a>
-      </div>
     </div>
   );
 
@@ -91,17 +80,6 @@ const Navbar = () => {
         </Link>
         <div className="h-px w-full bg-gray-100"></div>
       </div>
-      <div className="flex w-full flex-col items-center space-y-10">
-        <div className="h-px w-full bg-gray-100"></div>
-        <a className="font-navbar cursor-pointer text-xs" onClick={(_) => handleRoute("es")}>
-          {t("navbar.spanish")}
-        </a>
-        <div className="h-px w-full bg-gray-100"></div>
-        <a className="font-navbar cursor-pointer text-xs" onClick={(_) => handleRoute("en")}>
-          {t("navbar.english")}
-        </a>
-        <div className="h-px w-full bg-gray-100"></div>
-      </div>
     </div>
   );
 
@@ -118,7 +96,7 @@ const Navbar = () => {
           <LinksList></LinksList>
         </div>
 
-        <div className="hidden mobile:flex">
+        <div className="hidden cursor-pointer mobile:flex">
           <FontAwesomeIcon icon={faBars} style={{ fontSize: "1.3rem" }} onClick={toggleDrawer("navbar", true)}></FontAwesomeIcon>
         </div>
 
@@ -135,6 +113,5 @@ const Navbar = () => {
   );
 };
 
-const handleRoute = (locale: Locale) => router.push(router.asPath, router.asPath, { locale: locale });
 
 export default Navbar;
