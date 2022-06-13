@@ -2,6 +2,7 @@
   "navbar": {
     "home": "Inicio",
     "prices": "Precios",
+    "product": "Producto",
     "blog": "Blog",
     "demo": "Solicita una demo",
     "login": "Iniciar sesión",
@@ -14,7 +15,7 @@
 
   "footer": {
     "title": "© 2022 Refy Inc. Todos los derechos reservados.",
-    "terms": "Terminos",
+    "terms": "Términos",
     "privacy": "Privacidad",
     "cookies": "Cookies",
     "contact": "Contáctanos"

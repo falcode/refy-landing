@@ -1,6 +1,6 @@
 export { default as logo } from "./logo-primary.svg";
-export { default as integrations } from "./integrations.svg";
-export { default as channels } from "./channels.svg";
+export { default as integrations } from "./channels.svg";
+export { default as channels } from "./integrations.svg";
 export { default as banner } from "./banner.svg";
 export { default as fidelity_program1 } from "./fidelity_program1.svg";
 export { default as fidelity_program2 } from "./fidelity_program2.svg";

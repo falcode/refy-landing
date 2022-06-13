@@ -41,6 +41,9 @@ const Navbar = () => {
   const LinksList = () => (
     <div className="flex items-center justify-between flex-1">
       <div className="flex items-center space-x-14">
+        <Link href="/#product">
+          <a className="font-navbar">{t("navbar.product")}</a>
+        </Link>
         <Link href="/pricing">
           <a className="font-navbar">{t("navbar.prices")}</a>
         </Link>
@@ -50,25 +53,28 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center space-x-8">
-        <Link href="https://refyapp.com">
-          <a className="font-navbar">{t("navbar.login")}</a>
-        </Link>
-        <Link href="https://refyapp.com">
-          <a className="font-navbar">{t("navbar.demo")}</a>
+        <Link href="https://share-eu1.hsforms.com/1NRZaU4WaSm2oZo4-oEUVvwffi2u">
+          <a className="font-navbar" target="_blank">{t("navbar.demo")}</a>
         </Link>
         <a href="https://refyapp.com/signup-company" target="_blank" rel="noreferrer">
           <button className="button-primary">{t("navbar.try")}</button>
         </a>
+        <Link href="https://refyapp.com">
+          <a className="font-navbar">{t("navbar.login")}</a>
+        </Link>
       </div>
     </div>
   );
 
   const SideBarLinks = () => (
-    <div className="w-60 h-full flex flex-col items-center justify-between py-24">
-      <div className="flex w-full flex-col items-center space-y-10">
-        <div className="h-px w-full bg-gray-100"></div>
+    <div className="w-80 h-full flex flex-col items-center justify-between py-10">
+      <div className="flex w-full flex-col items-center space-y-5">
         <Link href="/">
           <a className="font-navbar" onClick={toggleDrawer("navbar", false)}>{t("navbar.home")}</a>
+        </Link>
+        <div className="h-px w-full bg-gray-100"></div>
+        <Link href="/#product">
+          <a className="font-navbar" onClick={toggleDrawer("navbar", false)}>{t("navbar.product")}</a>
         </Link>
         <div className="h-px w-full bg-gray-100"></div>
         <Link href="/pricing">
@@ -78,7 +84,19 @@ const Navbar = () => {
         <Link href="https://refy.substack.com">
           <a className="font-navbar" target="_blank" onClick={toggleDrawer("navbar", false)}>{t("navbar.blog")}</a>
         </Link>
+      </div>
+      <div className="flex w-full flex-col items-center space-y-5">
+        <Link href="https://share-eu1.hsforms.com/1NRZaU4WaSm2oZo4-oEUVvwffi2u">
+          <a className="font-navbar" target="_blank">{t("navbar.demo")}</a>
+        </Link>
         <div className="h-px w-full bg-gray-100"></div>
+        <a href="https://refyapp.com/signup-company" target="_blank" rel="noreferrer">
+          <button className="button-primary">{t("navbar.try")}</button>
+        </a>
+        <div className="h-px w-full bg-gray-100"></div>
+        <Link href="https://refyapp.com">
+          <a className="font-navbar">{t("navbar.login")}</a>
+        </Link>
       </div>
     </div>
   );

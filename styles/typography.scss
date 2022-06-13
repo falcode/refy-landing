@@ -27,7 +27,7 @@
     font-weight: bold;
     color: $blue;
   }
-  
+
   &-subtitle {
     @extend .font;
     font-family: $refy-firasans-font;
@@ -35,6 +35,7 @@
     font-size: 1.125rem;
     line-height: 1.75rem;
     color: $black-100;
+
     span {
       font-weight: bold;
     }
@@ -47,11 +48,12 @@
     font-size: 1.125rem;
     line-height: 2rem;
     color: $black-100;
+
     span {
       font-weight: bold;
     }
   }
-  
+
   &-hint {
     @extend .font;
     font-family: $refy-firasans-font;
@@ -59,6 +61,7 @@
     font-size: 1rem;
     line-height: 1.5rem;
     color: $grey;
+
     &--small {
       @extend .font;
       font-size: 0.8rem;
@@ -82,6 +85,7 @@
       line-height: 3rem;
       font-weight: normal;
       color: $black-100;
+
       &-active {
         color: $white;
         font-weight: bold;
@@ -93,6 +97,7 @@
     @extend .font;
     font-family: $refy-firasans-font;
     color: $black-100;
+
     &-big-title {
       font-family: $refy-nexa-font;
       font-size: 1.75rem;
@@ -100,21 +105,24 @@
       font-weight: bold;
       color: $blue;
     }
+
     &-title {
       font-size: 1.125rem;
       line-height: 1.75rem;
       font-weight: bold;
     }
+
     &-text {
       font-size: 1rem;
       line-height: 1.5rem;
-      span {
+
+      span, b {
         font-weight: bold;
       }
     }
   }
 
-  &-icon{
+  &-icon {
     font-size: 1rem;
   }
 }

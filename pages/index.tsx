@@ -190,8 +190,10 @@ const Home: NextPage = () => {
       </Head>
       <div className="pt-16">
         <Banner></Banner> <Companies></Companies> <ReferralProgramBenefits></ReferralProgramBenefits>
+        <section id="product">
         <ValueProposition></ValueProposition> <ReferralProgramSettings></ReferralProgramSettings> <Link></Link>
         <FilterCandidates></FilterCandidates> <Integrations></Integrations> <Channels></Channels>
+        </section>
       </div>
     </>
   );
