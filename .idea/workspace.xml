@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="Cambios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/es/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es/home.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +116,7 @@
       <workItem from="1654296665196" duration="12000" />
       <workItem from="1655099994930" duration="40000" />
       <workItem from="1655107061640" duration="312000" />
-      <workItem from="1655274386085" duration="612000" />
+      <workItem from="1655274386085" duration="1227000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1653990986586</created>
@@ -186,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655100011164</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Cambios">
+      <created>1655275015600</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655275015600</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -93,6 +93,19 @@ const ValueProposition = () => {
   );
 };
 
+const TalkingAboutUs = () => {
+  return (
+    <Container bgColor="primary" classes="flex flex-col items-center">
+      <h1 className="font-title color-white text-center">{Translate("talking-about-us.title")}</h1>
+      <h2 className="font-subtitle color-white text-center mt-5 mb-10" dangerouslySetInnerHTML={{__html: Translate("talking-about-us.subtitle")}}></h2>
+      <div className="flex justify-center space-x-8 mobile:flex-col mobile:space-x-0 mobile:space-y-5">
+        <ImageCard image={fidelity_program2} title={Translate("proposition.advocacy.title")} text={Translate("proposition.advocacy.text")}></ImageCard>
+        <ImageCard image={fidelity_program3} title={Translate("proposition.link.title")} text={Translate("proposition.link.text")}></ImageCard>
+      </div>
+    </Container>
+  );
+};
+
 const ReferralProgramSettings = () => {
   const [selectedProgram, setProgram] = useState("advocacy");
 
@@ -189,9 +202,9 @@ const Home: NextPage = () => {
         <meta property="og:title" content={Translate("title")} key={"Refy - " + Translate("banner.title")}/>
       </Head>
       <div className="pt-16">
-        <Banner></Banner> <Companies></Companies> <ReferralProgramBenefits></ReferralProgramBenefits>
+        <Banner></Banner> <ReferralProgramBenefits></ReferralProgramBenefits>
         <section id="product">
-        <ValueProposition></ValueProposition> <ReferralProgramSettings></ReferralProgramSettings> <Link></Link>
+          <ValueProposition></ValueProposition> <TalkingAboutUs></TalkingAboutUs><ReferralProgramSettings></ReferralProgramSettings> <Link></Link>
         <FilterCandidates></FilterCandidates> <Integrations></Integrations> <Channels></Channels>
         </section>
       </div>
