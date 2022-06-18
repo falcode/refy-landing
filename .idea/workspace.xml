@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="Añadido banner social">
-      <change afterPath="$PROJECT_DIR$/assets/svg/companies/refy-share.jpg" afterDir="false" />
+    <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="Modificado tema compartir + google analytics">
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/companies/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/companies/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pricing/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pricing/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/svg/companies" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -64,11 +60,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages" />
       <recent name="$PROJECT_DIR$/assets/svg/companies" />
       <recent name="$PROJECT_DIR$/assets/svg" />
       <recent name="$PROJECT_DIR$/assets/svg/people" />
       <recent name="$PROJECT_DIR$/layout" />
-      <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/svg" />
@@ -122,7 +118,7 @@
       <workItem from="1655099994930" duration="40000" />
       <workItem from="1655107061640" duration="312000" />
       <workItem from="1655274386085" duration="1494000" />
-      <workItem from="1655541717590" duration="5701000" />
+      <workItem from="1655541717590" duration="6579000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1653990986586</created>
@@ -236,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655546081595</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Modificado tema compartir + google analytics">
+      <created>1655547474737</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1655547474737</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +266,7 @@
     <MESSAGE value="Añadido toni jaime" />
     <MESSAGE value="Quitado idiomas" />
     <MESSAGE value="Añadido banner social" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadido banner social" />
+    <MESSAGE value="Modificado tema compartir + google analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificado tema compartir + google analytics" />
   </component>
 </project>
