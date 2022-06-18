@@ -6,6 +6,7 @@ import nextI18NextConfig from "../next-i18next.config.js";
 import createEmotionCache from "../components/material-ui/createEmotionCache";
 import { CacheProvider, EmotionCache } from "@emotion/react";
 import { CssBaseline } from "@material-ui/core";
+import Script from "next/script";
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
@@ -21,6 +22,17 @@ function RefyApp(props: MyAppProps) {
     <CacheProvider value={emotionCache}>
       <Layout>
         <CssBaseline />
+        <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-DTK9CRBM74`} />
+        <Script strategy="lazyOnload">
+          {`
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-DTK9CRBM74', {
+                    page_path: window.location.pathname,
+                    });
+                `}
+        </Script>
         <Component {...pageProps} />
       </Layout>
     </CacheProvider>

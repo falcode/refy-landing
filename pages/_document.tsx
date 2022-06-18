@@ -1,13 +1,16 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import createEmotionServer from "@emotion/server/create-instance";
 import createEmotionCache from "../components/material-ui/createEmotionCache";
+import {refy_share} from "../assets/svg/companies";
 
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="es">
         <Head>
           <meta name="theme-color" content="#FE6680" />
+          <meta property='og:type' content='article'/>
+          <meta property="og:image" content={refy_share.src}/>
           <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-icon-57x57.png" />
           <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-icon-60x60.png" />
           <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-icon-72x72.png" />

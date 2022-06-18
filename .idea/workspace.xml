@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="Quitado idiomas">
-      <change afterPath="$PROJECT_DIR$/assets/svg/social-referrals.svg" afterDir="false" />
+    <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="Añadido banner social">
+      <change afterPath="$PROJECT_DIR$/assets/svg/companies/refy-share.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/svg/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/svg/companies/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/assets/svg/companies/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/es/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es/home.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pricing/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pricing/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/svg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/svg/companies" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -62,8 +64,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/svg" />
       <recent name="$PROJECT_DIR$/assets/svg/companies" />
+      <recent name="$PROJECT_DIR$/assets/svg" />
       <recent name="$PROJECT_DIR$/assets/svg/people" />
       <recent name="$PROJECT_DIR$/layout" />
       <recent name="$PROJECT_DIR$/assets" />
@@ -120,7 +122,7 @@
       <workItem from="1655099994930" duration="40000" />
       <workItem from="1655107061640" duration="312000" />
       <workItem from="1655274386085" duration="1494000" />
-      <workItem from="1655541717590" duration="4343000" />
+      <workItem from="1655541717590" duration="5701000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1653990986586</created>
@@ -227,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655544717648</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Añadido banner social">
+      <created>1655546081595</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1655546081595</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +262,7 @@
     <MESSAGE value="Imagen employees arreglada" />
     <MESSAGE value="Añadido toni jaime" />
     <MESSAGE value="Quitado idiomas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quitado idiomas" />
+    <MESSAGE value="Añadido banner social" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadido banner social" />
   </component>
 </project>

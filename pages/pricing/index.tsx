@@ -9,9 +9,14 @@ function Translate(text: string, array?: boolean): string {
   const {t} = useTranslation("pricing");
   return array ? t(text, {returnObjects: true}) : t(text);
 }
+
 function TranslateArray(text: string): string[] {
   const {t} = useTranslation("pricing");
   return t(text, {returnObjects: true});
+}
+
+function stripHtmlTags(text: string): string {
+  return text.replace(/(<([^>]+)>)/gi, "");
 }
 
 const Prices = () => {
@@ -45,6 +50,7 @@ const Pricing: NextPage = () => {
       <Head>
         <title>{Translate("title") + ' | Refy'}</title>
         <meta property="og:title" content={Translate("title")} key={Translate("title")}/>
+        <meta property="og:description" content={stripHtmlTags(Translate("banner.title"))}/>
       </Head>
       <div className="pt-16">
         <Prices></Prices>

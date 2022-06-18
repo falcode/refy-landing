@@ -15,7 +15,7 @@ import {
   job_item,
   employees, social_referrals
 } from "../assets/svg";
-import {seat_code_white, toni_gimeno, tropicfeel_white, irb} from "../assets/svg/companies";
+import {seat_code_white, toni_gimeno, tropicfeel_white, irb, refy_share} from "../assets/svg/companies";
 
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSliders, faHeart, faTimer, faGem, faSackDollar, faCircleCheck} from "@fortawesome/pro-solid-svg-icons";
@@ -28,6 +28,10 @@ import {user_jaime_puig, user_toni_gimeno} from "../assets/svg/people";
 function Translate(text: string, array?: boolean): string {
   const {t} = useTranslation("home");
   return array ? t(text, {returnObjects: true}) : t(text);
+}
+
+function stripHtmlTags(text: string): string {
+  return text.replace(/(<([^>]+)>)/gi, "");
 }
 
 const Banner = () => (
@@ -213,13 +217,16 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>{"Refy - " + Translate("banner.title")}</title>
-        <meta property="og:title" content={Translate("title")} key={"Refy - " + Translate("banner.title")}/>
+        <meta property="og:title" content={"Refy - " + Translate("banner.title")}/>
+        <meta property="og:description" content={stripHtmlTags(Translate("banner.subtitle"))}/>
       </Head>
       <div className="pt-16">
         <Banner></Banner> <ReferralProgramBenefits></ReferralProgramBenefits>
         <section id="product">
-          <ValueProposition></ValueProposition> <TalkingAboutUs></TalkingAboutUs><ReferralProgramSettings></ReferralProgramSettings> <ReferralTypes></ReferralTypes><Link></Link>
-        <FilterCandidates></FilterCandidates> <Integrations></Integrations> <Channels></Channels>
+          <ValueProposition></ValueProposition>
+          <TalkingAboutUs></TalkingAboutUs><ReferralProgramSettings></ReferralProgramSettings>
+          <ReferralTypes></ReferralTypes><Link></Link> <FilterCandidates></FilterCandidates>
+          <Integrations></Integrations> <Channels></Channels>
         </section>
       </div>
     </>
