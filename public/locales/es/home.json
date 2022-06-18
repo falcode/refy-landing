@@ -2,7 +2,7 @@
   "title": "Inicio",
   "banner": {
     "title": "El software para atraer talento a través de tu propio equipo",
-    "subtitle": "Refy es el software que te permite crear un <span>programa de referidos integral</span> y llevar tu <span>marca de empleador</span> al siguiente nivel.",
+    "subtitle": "La plataforma para crear <b>el mejor programa de referidos<b>, llevando tu marca empleadora al siguiente nivel\n",
     "button": "Pruébalo gratis*",
     "hint": "*Sí, gratis para siempre hasta 5 empleados"
   },
@@ -32,7 +32,7 @@
   },
   "proposition": {
     "title": "¿Por qué Refy?",
-    "subtitle": "<span>Atrae talento</span> de calidad, <span>ahorra dinero y tiempo</span> en tus procesos de selección y <span>convierte tus empleados</span> en los mejores <span>promotores</span>.",
+    "subtitle": "<span>Atrae talento</span> de calidad, <span>ahorra dinero y tiempo</span> en tus procesos de selección y <span>convierte tus empleados</span> en los mejores <span>embajadores</span>",
     "advocacy": {
       "title": "Premia con puntos de fidelidad a todo el equipo",
       "text": "Las personas del equipo reciben puntos según su implicación en el programa de referidos: candidatos inscritos, publicaciones compartidas, personas contratadas…"
@@ -44,18 +44,6 @@
     "engage": {
       "title": "Mantén a tu equipo siempre conectado",
       "text": "Conecta Slack o Teams para notificar a tu equipo sobre las ofertas de trabajo disponibles o el estado de los candidatos a los que hayan recomendado."
-    }
-  },
-  "talking-about-us": {
-    "title": "Los expertos recomiendan Refy",
-    "subtitle": "Los mejores expertos en <b>Inbound Recruiting</b> coinciden en que <b>Refy</b> es una herramienta única.",
-    "toni-gimeno": {
-      "name": "Toni Gimeno",
-      "text": "El programa de referidos es el canal más potente para atraer talento y a la vez el menos utilizado de todos. No basta con tenerlo, sino que también hay que promocionarlo y mejorarlo para sacarle el máximo partido."
-    },
-    "jaime-puig": {
-      "name": "Jaime Puig",
-      "text": "Las ventajas de una buena estrategia de referidos son infinitas: mayor adecuación de los candidatos con la empresa, menor coste de atracción y contratación...y aún así, son muy pocas las empresas que le sacan partido."
     }
   },
   "referral-program-settings": {
@@ -91,10 +79,6 @@
   "companies": {
     "title": "Algunas de las empresas que ya atraen talento con Refy"
   },
-  "referral-types": {
-    "title": "Explora más allá de los referidos de primer nivel con los referidos sociales",
-    "text": "La gente de tu equipo puede ayudarte no sólo atrayendo contactos de primer nivel. También pueden usar sus redes sociales para promocionar las ofertas de trabajo y la marca de empleador. Es lo que en <b>Refy</b> llamamos <b>referidos sociales</b>.<br><br>En Refy, la gente de tu equipo puede añadir candidatos o bien compartir su <b>Social link</b> para que sean los propios candidatos quienes se apunten a la oferta."
-  },
   "link": {
     "title": "Social link: un enlace de oferta único para cada miembro del equipo que te permite tener trazabilidad total",
     "text": "Una de las claves del programa de referidos de Refy es tener un control total sobre las ofertas compartidas públicamente.<br><br>En Refy, cada persona del equipo puede compartir sus enlaces únicos de oferta con quien quiera. Esto permite conocer quiénes son los que atraen más visitas o que se esfuerzan más en la difusión de las ofertas.<br><br>Además, cuando una candidato se inscribe a la oferta a través del enlace, es posible saber en todo momento quién le ha recomendado y le informaremos sobre la candidatura para que la pueda revisar. Tendrás identificado las visitas que genera cada miembro del equipo y los canales con más conversión (Linkedin, Instagram, Whatsapp, etc.)."
@@ -110,5 +94,21 @@
   "channels": {
     "title": "Mantén a tus empleados 100% conectados vía Teams o Slack",
     "text": "Puedes conectar tu herramienta de comunicación interna para que las personas de tu equipo reciban una notificación cuando añades una nueva oferta de empleo, una publicación o cuando a un empleado le llega una nueva solicitud de recomendación.<br><br>Refy se encarga de la comunicación entre tu y tu equipo para que no tengas que preocuparte de nada."
+  },
+  "talking-about-us": {
+    "title": "Los expertos recomiendan Refy",
+    "subtitle": "Los mejores expertos en <b>Inbound Recruiting</b> coinciden en que <b>Refy</b> es una herramienta única.",
+    "toni-gimeno": {
+      "name": "Toni Gimeno",
+      "text": "El programa de referidos es el canal más potente para atraer talento y a la vez el menos utilizado de todos. No basta con tenerlo, sino que también hay que promocionarlo y mejorarlo para sacarle el máximo partido."
+    },
+    "jaime-puig": {
+      "name": "Jaime Puig",
+      "text": "Las ventajas de una buena estrategia de referidos son infinitas: mayor adecuación de los candidatos con la empresa, menor coste de atracción y contratación...y aún así, son muy pocas las empresas que le sacan partido."
+    }
+  },
+  "referral-types": {
+    "title": "Explora más allá de los referidos de primer nivel con los referidos sociales",
+    "text": "La gente de tu equipo puede ayudarte no sólo atrayendo contactos de primer nivel. También pueden usar sus redes sociales para promocionar las ofertas de trabajo y la marca de empleador. Es lo que en <b>Refy</b> llamamos <b>referidos sociales</b>.<br><br>En Refy, la gente de tu equipo puede añadir candidatos o bien compartir su <b>Social link</b> para que sean los propios candidatos quienes se apunten a la oferta."
   }
 }
