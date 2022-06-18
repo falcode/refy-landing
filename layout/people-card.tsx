@@ -1,8 +1,8 @@
-import Image from "next/image";
+import Image, {StaticImageData} from "next/image";
 import {faQuoteLeft, faQuoteRight} from "@fortawesome/pro-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-const PeopleCard = ({backgroundImage, image, name, text}: { backgroundImage: string; image: string; name: string; text: string; }) => (
+const PeopleCard = ({backgroundImage, image, name, text}: { backgroundImage: StaticImageData; image: StaticImageData; name: string; text: string; }) => (
   <div className="flex flex-col w-1/3 mobile:w-full bg-white rounded-xl drop-shadow-xl overflow-hidden">
     <div className="relative flex justify-center h-60 px-8">
       <Image src={backgroundImage} alt={name} className="object-contain"></Image>

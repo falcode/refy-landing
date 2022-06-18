@@ -22,8 +22,8 @@ function RefyApp(props: MyAppProps) {
     <CacheProvider value={emotionCache}>
       <Layout>
         <CssBaseline />
-        <Script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-DTK9CRBM74`} />
-        <Script strategy="lazyOnload">
+        <Script id="googleTagManagerJs" strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=G-DTK9CRBM74`} />
+        <Script id="googleTagManagerScript" strategy="lazyOnload">
           {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
