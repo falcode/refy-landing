@@ -15,13 +15,15 @@ import {
   job_item,
   employees
 } from "../assets/svg";
-import {seat_code_white, tropicfeel_white} from "../assets/svg/companies";
+import {seat_code_white, toni_gimeno, tropicfeel_white, irb} from "../assets/svg/companies";
 
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSliders, faHeart, faTimer, faGem, faSackDollar, faCircleCheck} from "@fortawesome/pro-solid-svg-icons";
 import Container from "../layout/container";
 import IconItem from "../layout/icon-item";
 import ImageCard from "../layout/image-card";
+import PeopleCard from "../layout/people-card";
+import {user_jaime_puig, user_toni_gimeno} from "../assets/svg/people";
 
 function Translate(text: string, array?: boolean): string {
   const {t} = useTranslation("home");
@@ -99,8 +101,8 @@ const TalkingAboutUs = () => {
       <h1 className="font-title color-white text-center">{Translate("talking-about-us.title")}</h1>
       <h2 className="font-subtitle color-white text-center mt-5 mb-10" dangerouslySetInnerHTML={{__html: Translate("talking-about-us.subtitle")}}></h2>
       <div className="flex justify-center space-x-8 mobile:flex-col mobile:space-x-0 mobile:space-y-5">
-        <ImageCard image={fidelity_program2} title={Translate("proposition.advocacy.title")} text={Translate("proposition.advocacy.text")}></ImageCard>
-        <ImageCard image={fidelity_program3} title={Translate("proposition.link.title")} text={Translate("proposition.link.text")}></ImageCard>
+        <PeopleCard backgroundImage={toni_gimeno} image={user_toni_gimeno} name={Translate("talking-about-us.toni-gimeno.name")} text={Translate("talking-about-us.toni-gimeno.text")}></PeopleCard>
+        <PeopleCard backgroundImage={irb} image={user_jaime_puig} name={Translate("talking-about-us.jaime-puig.name")} text={Translate("talking-about-us.jaime-puig.text")}></PeopleCard>
       </div>
     </Container>
   );

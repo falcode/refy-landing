@@ -48,7 +48,15 @@
   },
   "talking-about-us": {
     "title": "Los expertos recomiendan Refy",
-    "subtitle": "Los mejores expertos en <b>Inbound Recruiting</b> coinciden en que <b>Refy</b> es una herramienta única."
+    "subtitle": "Los mejores expertos en <b>Inbound Recruiting</b> coinciden en que <b>Refy</b> es una herramienta única.",
+    "toni-gimeno": {
+      "name": "Toni Gimeno",
+      "text": "El programa de referidos es el canal más potente para atraer talento y a la vez el menos utilizado de todos. No basta con tenerlo, sino que también hay que promocionarlo y mejorarlo para sacarle el máximo partido."
+    },
+    "jaime-puig": {
+      "name": "Jaime Puig",
+      "text": "Las ventajas de una buena estrategia de referidos son infinitas: mayor adecuación de los candidatos con la empresa, menor coste de atracción y contratación...y aún así, son muy pocas las empresas que le sacan partido."
+    }
   },
   "referral-program-settings": {
     "title": "Un programa de referidos para cada empresa",
