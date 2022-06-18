@@ -25,7 +25,7 @@ const Footer = () => {
           <a href="https://share-eu1.hsforms.com/1NRZaU4WaSm2oZo4-oEUVvwffi2u" rel="noreferrer" target="_blank" className="text-gray-400 underline">
             {t('footer.contact')}
             </a>
-          <div className="flex w-20 justify-between">
+          <div className="flex w-20 justify-between hidden">
             <div className="flex items-center w-6 cursor-pointer" onClick={(_) => handleRoute("en")}>
               <Image src={en} alt="English"></Image>
             </div>
