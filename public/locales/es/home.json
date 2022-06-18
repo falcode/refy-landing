@@ -1,10 +1,10 @@
 {
   "title": "Inicio",
   "banner": {
-    "title": "El software para atraer talento a través de tu propio equipo.",
+    "title": "El software para atraer talento a través de tu propio equipo",
     "subtitle": "Refy es el software que te permite crear un <span>programa de referidos integral</span> y llevar tu <span>marca de empleador</span> al siguiente nivel.",
     "button": "Pruébalo gratis*",
-    "hint": "*Sí, gratis para siempre hasta 5 empleados"
+    "hint": "*Sí, ¡gratis para siempre hasta 5 empleados!"
   },
   "referral-program-benefits": {
     "title": "Hay mucho talento ahí fuera, sólo tienes que saber cómo llegar a él",
@@ -46,18 +46,6 @@
       "text": "Conecta Slack o Teams para notificar a tu equipo sobre las ofertas de trabajo disponibles o el estado de los candidatos a los que hayan recomendado."
     }
   },
-  "talking-about-us": {
-    "title": "Los expertos recomiendan Refy",
-    "subtitle": "Los mejores expertos en <b>Inbound Recruiting</b> coinciden en que <b>Refy</b> es una herramienta única.",
-    "toni-gimeno": {
-      "name": "Toni Gimeno",
-      "text": "El programa de referidos es el canal más potente para atraer talento y a la vez el menos utilizado de todos. No basta con tenerlo, sino que también hay que promocionarlo y mejorarlo para sacarle el máximo partido."
-    },
-    "jaime-puig": {
-      "name": "Jaime Puig",
-      "text": "Las ventajas de una buena estrategia de referidos son infinitas: mayor adecuación de los candidatos con la empresa, menor coste de atracción y contratación...y aún así, son muy pocas las empresas que le sacan partido."
-    }
-  },
   "referral-program-settings": {
     "title": "Un programa de referidos para cada empresa",
     "subtitle": "Elige el programa de referidos que más se adapte a la cultura de tu empresa.",
@@ -91,21 +79,17 @@
   "companies": {
     "title": "Algunas de las empresas que ya atraen talento con Refy"
   },
-  "referral-types": {
-    "title": "Explora más allá de los referidos de primer nivel con los referidos sociales",
-    "text": "La gente de tu equipo puede ayudarte no sólo atrayendo contactos de primer nivel. También pueden usar sus redes sociales para promocionar las ofertas de trabajo y la marca de empleador. Es lo que en <b>Refy</b> llamamos <b>referidos sociales</b>.<br><br>En Refy, la gente de tu equipo puede añadir candidatos o bien compartir su <b>Social link</b> para que sean los propios candidatos quienes se apunten a la oferta."
-  },
   "link": {
-    "title": "Social link: un enlace de oferta único para cada miembro del equipo que te permite tener trazabilidad total",
-    "text": "Una de las claves del programa de referidos de Refy es tener un control total sobre las ofertas compartidas públicamente.<br><br>En Refy, cada persona del equipo puede compartir sus enlaces únicos de oferta con quien quiera. Esto permite conocer quiénes son los que atraen más visitas o que se esfuerzan más en la difusión de las ofertas.<br><br>Además, cuando una candidato se inscribe a la oferta a través del enlace, es posible saber en todo momento quién le ha recomendado y le informaremos sobre la candidatura para que la pueda revisar. Tendrás identificado las visitas que genera cada miembro del equipo y los canales con más conversión (Linkedin, Instagram, Whatsapp, etc.)."
+    "title": "Trazabilidad total: un link de oferta único para cada miembro del equipo",
+    "text": "Una de las claves del programa de referidos de Refy es tener un control total sobre las ofertas compartidas públicamente.<br><br>En Refy, cada persona del equipo puede compartir sus enlaces únicos de oferta con quien quiera. Esto permite conocer quiénes son los que atraen más visitas o que se esfuerzan más en la difusión de las ofertas.<br><br>Además, cuando una candidato se inscribe a la oferta a través del enlace, es posible saber quién le ha recomendado y le mantendremos informado sobre la candidatura en todo momento."
   },
   "filter-candidates": {
     "title": "Obtén más información de los candidatos usando las preguntas de filtro",
-    "text": "Desde Refy puedes crear preguntas para que las personas de tu equipo aporten más información acerca de los candidatos a los que han recomendado. Cuál es su nivel de inglés real, rango salarial esperado o mayor virtud por poner algunos ejemplos.<br><br>El objetivo debe ser que el equipo se implique en atraer al mejor talento posible optimizando los procesos de selección al máximo."
+    "text": "Desde Refy puedes crear preguntas para que las personas de tu equipo aporten más información acerca de los candidatos a los que han recomendado. Cuál es su nivel de inglés real, rango salarial esperado o mayor virtud por poner algunos ejemplos.<br><br>El objetivo debe ser que el equipo se implique en atraer al mejor talento posible, optimizando los procesos de selección al máximo."
   },
   "integrations": {
     "title": "Estamos 100% integrados con tu ATS",
-    "text": "Nos integramos con tus herramientas de gestión de selección y RRHH (ATS, HCMS, ERPs…) reduciendo el trabajo administrativo todo lo posible.<br><br>Cuando publiques una oferta en tu sistema, se copiará automáticamente en Refy para que todo tu equipo pueda verla.<br><br>Cuando una persona se inscriba a una oferta en Refy, se copiará automáticamente en tu sistema para que la puedas gestionar junto al resto.<br><br>¿Qué pasa si no tienes ninguna plataforma? ¡No hay problema, tenemos solución para ello!"
+    "text": "Nos integramos con tus herramientas de gestión de selección y RRHH (ATS, HCMS, ERPs…), reduciendo el trabajo administrativo todo lo posible.<br><br>Cuando publiques una oferta en tu sistema, se copiará automáticamente en Refy para que todo tu equipo pueda verla.<br><br>Cuando una persona se inscriba a una oferta en Refy, se copiará automáticamente en tu sistema para que la puedas gestionar junto al resto.<br><br>¿Qué pasa si no tienes ninguna plataforma? ¡No hay problema, tenemos solución para ello!"
   },
   "channels": {
     "title": "Mantén a tus empleados 100% conectados vía Teams o Slack",

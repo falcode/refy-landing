@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="Sitemap">
+    <list default="true" id="173cd18c-f20e-43da-ac4b-e03d9ce5d843" name="Changes" comment="Fix errores build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/image-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/image-card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layout/people-card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layout/people-card.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/es/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/es/home.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +118,7 @@
       <workItem from="1655107061640" duration="312000" />
       <workItem from="1655274386085" duration="1494000" />
       <workItem from="1655541717590" duration="7234000" />
-      <workItem from="1655551034445" duration="173000" />
+      <workItem from="1655551034445" duration="851000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1653990986586</created>
@@ -248,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655548324618</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Fix errores build">
+      <created>1655551228430</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1655551228430</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +282,7 @@
     <MESSAGE value="Añadido banner social" />
     <MESSAGE value="Modificado tema compartir + google analytics" />
     <MESSAGE value="Sitemap" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sitemap" />
+    <MESSAGE value="Fix errores build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix errores build" />
   </component>
 </project>
