@@ -13,7 +13,7 @@ import {
   fidelity_program3,
   filter_candidates,
   job_item,
-  employees
+  employees, social_referrals
 } from "../assets/svg";
 import {seat_code_white, toni_gimeno, tropicfeel_white, irb} from "../assets/svg/companies";
 
@@ -42,7 +42,7 @@ const Banner = () => (
       </div>
       <p className="font-hint mobile:text-center mt-4">{Translate("banner.hint")}</p>
     </div>
-    <div className="flex w-2/5 mobile:w-full items-center justify-center mobile:hidden">
+    <div className="flex w-2/5 px-5 mobile:w-full items-center justify-center mobile:hidden">
       <Image src={banner} alt="Try Refy for Free"></Image>
     </div>
   </Container>
@@ -74,7 +74,7 @@ const ReferralProgramBenefits = () => {
         <IconItem icon={faHeart} title={Translate("referral-program-benefits.advocacy.title")} text={Translate("referral-program-benefits.advocacy.text")}></IconItem>
         <IconItem icon={faCircleCheck} title={Translate("referral-program-benefits.culture.title")} text={Translate("referral-program-benefits.culture.text")}></IconItem>
       </div>
-      <div className="flex flex-col w-2/5 mobile:w-full items-center justify-center">
+      <div className="flex flex-col w-2/5 px-5 mobile:w-full items-center justify-center">
         <Image src={filter_candidates} alt="Filter candidates"></Image>
       </div>
     </Container>
@@ -133,7 +133,7 @@ const ReferralProgramSettings = () => {
         </div>
         <p className="font-text mobile:text-center" dangerouslySetInnerHTML={{__html: Translate(`referral-program-settings.${selectedProgram}.text`)}}></p>
       </div>
-      <div className="flex flex-col w-2/5 mobile:w-full items-center justify-center">
+      <div className="flex flex-col w-2/5 px-5 mobile:w-full items-center justify-center">
         <Image src={employees} alt="Candidate 1"></Image>
         <div className="flex flex-col space-y-5 mt-5 justify-between p-8 w-80 bg-white rounded-xl drop-shadow-xl mobile:hidden">
           <FontAwesomeIcon icon={faSliders} className="font-icon color-primary"></FontAwesomeIcon> {(Translate("referral-program-settings.image-card.options", true) as unknown as []).map((option, i) => (
@@ -148,49 +148,61 @@ const ReferralProgramSettings = () => {
   );
 };
 
-const Link = () => (
+const ReferralTypes = () => (
   <Container bgColor="white" classes="flex mobile:flex-col flex-row-reverse">
+    <div className="flex flex-col w-3/5 desktop:px-5 mobile:w-full mobile:mb-10">
+      <h1 className="font-title mobile:text-center mb-10">{Translate("referral-types.title")}</h1>
+      <p className="font-text mobile:text-center" dangerouslySetInnerHTML={{__html: Translate("referral-types.text")}}></p>
+    </div>
+    <div className="flex flex-col w-2/5 px-5 mobile:w-full items-center justify-center">
+      <Image src={social_referrals} alt="Job item"></Image>
+    </div>
+  </Container>
+);
+
+const Link = () => (
+  <Container bgColor="white" classes="flex mobile:flex-col">
     <div className="flex flex-col w-3/5 desktop:px-5 mobile:w-full mobile:mb-10">
       <h1 className="font-title mobile:text-center mb-10">{Translate("link.title")}</h1>
       <p className="font-text mobile:text-center" dangerouslySetInnerHTML={{__html: Translate("link.text")}}></p>
     </div>
-    <div className="flex flex-col w-2/5 mobile:w-full items-center justify-center">
+    <div className="flex flex-col w-2/5 px-5 mobile:w-full items-center justify-center">
       <Image src={job_item} alt="Job item"></Image>
     </div>
   </Container>
 );
 
 const FilterCandidates = () => (
-  <Container bgColor="white" classes="flex mobile:flex-col">
+  <Container bgColor="white" classes="flex mobile:flex-col flex-row-reverse">
     <div className="flex flex-col w-3/5 desktop:px-5 mobile:w-full mobile:mb-10">
       <h1 className="font-title mobile:text-center mb-10">{Translate("filter-candidates.title")}</h1>
       <p className="font-text mobile:text-center" dangerouslySetInnerHTML={{__html: Translate("filter-candidates.text")}}></p>
     </div>
-    <div className="flex flex-col w-2/5 mobile:w-full items-center justify-center">
+    <div className="flex flex-col w-2/5 px-5 mobile:w-full items-center justify-center">
       <Image src={filter_candidates} alt="Filter candidates"></Image>
     </div>
   </Container>
 );
 
 const Integrations = () => (
-  <Container bgColor="white" classes="flex mobile:flex-col flex-row-reverse">
+  <Container bgColor="white" classes="flex mobile:flex-col">
     <div className="flex flex-col w-3/5 desktop:px-5 mobile:w-full mobile:mb-10">
       <h1 className="font-title mobile:text-center mb-10">{Translate("integrations.title")}</h1>
       <p className="font-text mobile:text-center" dangerouslySetInnerHTML={{__html: Translate("integrations.text")}}></p>
     </div>
-    <div className="flex flex-col w-2/5 mobile:w-full items-center justify-center">
+    <div className="flex flex-col w-2/5 px-5 mobile:w-full items-center justify-center">
       <Image src={integrations} alt="Integrations"></Image>
     </div>
   </Container>
 );
 
 const Channels = () => (
-  <Container bgColor="white" classes="flex mobile:flex-col">
+  <Container bgColor="white" classes="flex mobile:flex-col flex-row-reverse">
     <div className="flex flex-col w-3/5 desktop:px-5 mobile:w-full mobile:mb-10">
       <h1 className="font-title mobile:text-center mb-10">{Translate("channels.title")}</h1>
       <p className="font-text mobile:text-center" dangerouslySetInnerHTML={{__html: Translate("channels.text")}}></p>
     </div>
-    <div className="flex flex-col w-2/5 mobile:w-full items-center justify-center">
+    <div className="flex flex-col w-2/5 px-5 mobile:w-full items-center justify-center">
       <Image src={channels} alt="channels"></Image>
     </div>
   </Container>
@@ -206,7 +218,7 @@ const Home: NextPage = () => {
       <div className="pt-16">
         <Banner></Banner> <ReferralProgramBenefits></ReferralProgramBenefits>
         <section id="product">
-          <ValueProposition></ValueProposition> <TalkingAboutUs></TalkingAboutUs><ReferralProgramSettings></ReferralProgramSettings> <Link></Link>
+          <ValueProposition></ValueProposition> <TalkingAboutUs></TalkingAboutUs><ReferralProgramSettings></ReferralProgramSettings> <ReferralTypes></ReferralTypes><Link></Link>
         <FilterCandidates></FilterCandidates> <Integrations></Integrations> <Channels></Channels>
         </section>
       </div>

@@ -91,9 +91,13 @@
   "companies": {
     "title": "Algunas de las empresas que ya atraen talento con Refy"
   },
+  "referral-types": {
+    "title": "Explora más allá de los referidos de primer nivel con los referidos sociales",
+    "text": "La gente de tu equipo puede ayudarte no sólo atrayendo contactos de primer nivel. También pueden usar sus redes sociales para promocionar las ofertas de trabajo y la marca de empleador. Es lo que en <b>Refy</b> llamamos <b>referidos sociales</b>.<br><br>En Refy, la gente de tu equipo puede añadir candidatos o bien compartir su <b>Social link</b> para que sean los propios candidatos quienes se apunten a la oferta."
+  },
   "link": {
-    "title": "Trazabilidad total: un link de oferta único para cada miembro del equipo",
-    "text": "Una de las claves del programa de referidos de Refy es tener un control total sobre las ofertas compartidas públicamente.<br><br>En Refy, cada persona del equipo puede compartir sus enlaces únicos de oferta con quien quiera. Esto permite conocer quiénes son los que atraen más visitas o que se esfuerzan más en la difusión de las ofertas.<br><br>Además, cuando una candidato se inscribe a la oferta a través del enlace, es posible saber en todo momento quién le ha recomendado y le informaremos sobre la candidatura para que la pueda revisar."
+    "title": "Social link: un enlace de oferta único para cada miembro del equipo que te permite tener trazabilidad total",
+    "text": "Una de las claves del programa de referidos de Refy es tener un control total sobre las ofertas compartidas públicamente.<br><br>En Refy, cada persona del equipo puede compartir sus enlaces únicos de oferta con quien quiera. Esto permite conocer quiénes son los que atraen más visitas o que se esfuerzan más en la difusión de las ofertas.<br><br>Además, cuando una candidato se inscribe a la oferta a través del enlace, es posible saber en todo momento quién le ha recomendado y le informaremos sobre la candidatura para que la pueda revisar. Tendrás identificado las visitas que genera cada miembro del equipo y los canales con más conversión (Linkedin, Instagram, Whatsapp, etc.)."
   },
   "filter-candidates": {
     "title": "Obtén más información de los candidatos usando las preguntas de filtro",
