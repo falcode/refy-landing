@@ -8,6 +8,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="es">
         <Head>
+          <meta name="google-site-verification" content="ypRTBYCg6gbXZu1Vr7_JZOwxh37Nc70L4Kr_spj9RYk" />
           <meta name="theme-color" content="#FE6680" />
           <meta property='og:type' content='article'/>
           <meta property="og:image" content={refy_share.src}/>
