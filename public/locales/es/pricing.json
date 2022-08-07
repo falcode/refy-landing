@@ -9,18 +9,27 @@
   "prices": {
     "popular": "Popular",
     "button": "Regístrate",
+    "launch": {
+      "title": "Launch",
+      "subtitle": "Para equipos de hasta 10 personas",
+      "price": "Gratis",
+      "options": ["Referidos sin límite", "Social Link", "Integración con ATS", "Gamificación y puntos de fidelidad"]
+    },
     "startup": {
       "title": "Startup",
-      "price": "Gratis",
-      "options": ["Referidos sin límite", "Equipos de hasta 5 personas", "Página de carrera", "Social Link", "Integración con ATS", "Integración con Teams o Slack", "Gamificación y puntos de fidelidad"]
+      "subtitle": "Para equipos de 10 a 50 personas",
+      "price": "49€ al mes",
+      "options": ["Funcionalidades del plan Launch", "Página de carrera", "Integración con Teams o Slack", "Dashboard y gestión de empleados", "Soporte"]
     },
     "business": {
       "title": "Business",
+      "subtitle": "Para equipos de 50 a 250 personas",
       "price": "199€ al mes",
-      "options": ["Funcionalidades del plan Startup", "Sin límite de empleados", "Dashboard y gestión de empleados", "Soporte"]
+      "options": ["Funcionalidades del plan Startup"]
     },
     "enterprise": {
       "title": "Enterprise",
+      "subtitle": "Corporates, procesos de gran volumen, agencias de reclutamiento y otros casos de uso",
       "price": "Contacta con nuestro equipo de ventas",
       "options": ["Funcionalidades del plan Business", "Módulo de movilidad interna", "Soporte dedicado vía Account Manager"]
     }

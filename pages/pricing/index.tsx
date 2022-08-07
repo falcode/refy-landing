@@ -24,6 +24,7 @@ const Prices = () => {
   const CardProperties = (option: string, popular: boolean): Price => {
     return {
       title: Translate(`prices.${option}.title`),
+      subtitle: Translate(`prices.${option}.subtitle`),
       price: Translate(`prices.${option}.price`),
       options: TranslateArray(`prices.${option}.options`),
       button: Translate(`prices.button`),
@@ -36,6 +37,7 @@ const Prices = () => {
       <h1 className="font-title text-center">{Translate("banner.title")}</h1>
       <h2 className="font-subtitle text-center mt-5 mb-10" dangerouslySetInnerHTML={{__html: Translate("banner.subtitle")}}></h2>
       <div className="w-full flex mobile:flex-col desktop:space-x-5 mobile:space-y-5">
+        <PriceCard {...CardProperties("launch", false)}></PriceCard>
         <PriceCard {...CardProperties("startup", false)}></PriceCard>
         <PriceCard {...CardProperties("business", true)}></PriceCard>
         <PriceCard {...CardProperties("enterprise", false)}></PriceCard>

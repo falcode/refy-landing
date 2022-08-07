@@ -15,6 +15,7 @@ export const OptionList = ({options} : {options:string[]}) =>  (
 
 export type Price = {
   title: string;
+  subtitle: string;
   price: string;
   options: string[];
   button: string;
@@ -29,6 +30,7 @@ export const PriceCard = (props: Price) => {
         <div className="flex flex-col p-6 border-b-2 border-gray-100 mobile:items-center">
           <h3 className="font-item-title mobile:text-center">{props.title}</h3>
           <h3 className="font-item-big-title mobile:text-center mt-3">{props.price}</h3>
+          <h3 className="font-item-text mobile:text-center mt-2">{props.subtitle}</h3>
         </div>
         <div className="flex flex-col px-6 pt-6 pb-10">
           <OptionList options={props.options}></OptionList>
