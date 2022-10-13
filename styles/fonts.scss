@@ -10,17 +10,7 @@
   src: local("Nexa"), url("../assets/fonts/Nexa/Nexa-Bold.otf");
 }
 
-@font-face {
-  font-family: "FiraSans";
-  font-weight: bold;
-  src: local("FiraSans"), url("../assets/fonts/FiraSans/FiraSans-SemiBold.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');
 
-@font-face {
-  font-family: "FiraSans";
-  font-weight: normal;
-  src: local("FiraSans"), url("../assets/fonts/FiraSans/FiraSans-Regular.ttf");
-}
-
-$refy-nexa-font: Nexa;
-$refy-firasans-font: FiraSans;
+$refy-header-font: Nexa;
+$refy-body-font: 'Work Sans';

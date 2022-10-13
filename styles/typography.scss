@@ -3,7 +3,7 @@
 
   &-big-title {
     @extend .font;
-    font-family: $refy-nexa-font;
+    font-family: $refy-header-font;
     font-size: 2.875rem;
     font-weight: bold;
     line-height: 3.5rem;
@@ -12,7 +12,7 @@
 
   &-big-title--mini {
     @extend .font;
-    font-family: $refy-nexa-font;
+    font-family: $refy-header-font;
     font-size: 1.625rem;
     font-weight: bold;
     line-height: 2rem;
@@ -21,7 +21,7 @@
 
   &-title {
     @extend .font;
-    font-family: $refy-nexa-font;
+    font-family: $refy-header-font;
     font-size: 2.25rem;
     line-height: 3rem;
     font-weight: bold;
@@ -30,7 +30,7 @@
 
   &-subtitle {
     @extend .font;
-    font-family: $refy-firasans-font;
+    font-family: $refy-body-font;
     font-weight: normal;
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -43,7 +43,7 @@
 
   &-text {
     @extend .font;
-    font-family: $refy-firasans-font;
+    font-family: $refy-body-font;
     font-weight: normal;
     font-size: 1.125rem;
     line-height: 2rem;
@@ -56,7 +56,7 @@
 
   &-hint {
     @extend .font;
-    font-family: $refy-firasans-font;
+    font-family: $refy-body-font;
     font-weight: normal;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -70,7 +70,7 @@
 
   &-navbar {
     @extend .font;
-    font-family: $refy-firasans-font;
+    font-family: $refy-body-font;
     font-weight: bold;
     font-size: 1rem;
     line-height: 1.1875rem;
@@ -80,7 +80,7 @@
   &-button {
     &-toggle {
       @extend .font;
-      font-family: $refy-firasans-font;
+      font-family: $refy-body-font;
       font-size: 1.125rem;
       line-height: 3rem;
       font-weight: normal;
@@ -95,11 +95,11 @@
 
   &-item {
     @extend .font;
-    font-family: $refy-firasans-font;
+    font-family: $refy-body-font;
     color: $black-100;
 
     &-big-title {
-      font-family: $refy-nexa-font;
+      font-family: $refy-header-font;
       font-size: 1.75rem;
       line-height: 2.25rem;
       font-weight: bold;
