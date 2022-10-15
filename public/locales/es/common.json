@@ -15,9 +15,9 @@
 
   "footer": {
     "title": "© 2022 Refy Inc. Todos los derechos reservados.",
-    "terms": "Términos",
-    "privacy": "Privacidad",
-    "cookies": "Cookies",
-    "contact": "Contáctanos"
+    "terms": "Aviso legal",
+    "privacy": "Política de privacidad",
+    "cookies": "Política de cookies",
+    "contact": "Contacto"
   }
 }

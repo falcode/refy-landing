@@ -22,6 +22,7 @@ const Cookies: NextPage = () => {
         <meta property="og:title" content={TranslateCommon("footer.cookies")} key={TranslateCommon("footer.cookies")}/>
       </Head>
       <Container bgColor="white" classes="mt-10">
+      <h1 className="font-title">{TranslateCookies("title1")}</h1>
         <p className="pb-5">{TranslateCookies("ad1")}</p>
         <p className="pb-5">{TranslateCookies("ad2")}</p>
         <h1 className="font-title">{TranslateCookies("title")}</h1>

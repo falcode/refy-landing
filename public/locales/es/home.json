@@ -2,12 +2,13 @@
   "title": "Inicio",
   "banner": {
     "title": "El software para atraer talento a través de tu propio equipo",
-    "subtitle": "La plataforma para crear <b>el mejor programa de referidos<b>, llevando tu marca empleadora al siguiente nivel\n",
+    "subtitle": "La plataforma para crear <b>el mejor programa de referidos</b>, llevando tu marca empleadora al siguiente nivel.",
     "button": "Pruébalo gratis*",
     "hint": "*Sí, gratis para siempre hasta 5 empleados"
   },
   "referral-program-benefits": {
     "title": "Hay mucho talento ahí fuera, sólo tienes que saber cómo llegar a él",
+    "subsubtitle": "La plataforma para crear <b>el mejor programa de referidos<b>, llevando tu marca empleadora al siguiente nivel.",
     "subtitle": "El <span>88% de los recruiters</span> aseguran que la mejor fuente para obtener candidatos de calidad es el <span>programa de referidos</span>. ¿Por qué?",
     "time": {
       "title": "Menor tiempo de contratación",
