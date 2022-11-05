@@ -19,5 +19,12 @@
     "privacy": "Política de privacidad",
     "cookies": "Política de cookies",
     "contact": "Contacto"
+  },
+
+  "cookies": {
+    "description": "Utilizamos cookies propias y de terceros con la finalidad de mejorar los servicios prestados a través de este Sitio Web tratando los datos necesarios para ello. Puedes obtener más información y configurar o rechazar las cookies en 'Configurar' o aceptarlas haciendo clic en 'Aceptar'. ",
+    "setting": "Configuración",
+    "reject": "Rechazar",
+    "accept": "Aceptar"
   }
 }
