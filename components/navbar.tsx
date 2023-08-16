@@ -56,10 +56,10 @@ const Navbar = () => {
         <Link href="https://share-eu1.hsforms.com/1NRZaU4WaSm2oZo4-oEUVvwffi2u">
           <a className="font-navbar" target="_blank">{t("navbar.demo")}</a>
         </Link>
-        <a href="https://refyapp.com/signup-company" target="_blank" rel="noreferrer">
+        <a href="https://app.refyapp.com/companies/new" target="_blank" rel="noreferrer">
           <button className="button-primary">{t("navbar.try")}</button>
         </a>
-        <Link href="https://refyapp.com">
+        <Link href="https://app.refyapp.com/users/login">
           <a className="font-navbar">{t("navbar.login")}</a>
         </Link>
       </div>
@@ -90,11 +90,11 @@ const Navbar = () => {
           <a className="font-navbar" target="_blank">{t("navbar.demo")}</a>
         </Link>
         <div className="h-px w-full bg-gray-100"></div>
-        <a href="https://refyapp.com/signup-company" target="_blank" rel="noreferrer">
+        <a href="https://app.refyapp.com/companies/new" target="_blank" rel="noreferrer">
           <button className="button-primary">{t("navbar.try")}</button>
         </a>
         <div className="h-px w-full bg-gray-100"></div>
-        <Link href="https://refyapp.com">
+        <Link href="https://app.refyapp.com/users/login">
           <a className="font-navbar">{t("navbar.login")}</a>
         </Link>
       </div>
