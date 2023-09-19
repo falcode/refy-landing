@@ -1,18 +1,23 @@
 import Head from "next/head";
-import type {NextPage} from "next";
-import {useTranslation} from "next-i18next";
-import {Price, PriceCard} from "./components/price-card";
-import {serverSideTranslations} from "next-i18next/serverSideTranslations";
+import type { NextPage } from "next";
+import { useTranslation } from "next-i18next";
+import { Price } from "./components/price-card";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import Container from "../../layout/container";
 
 function Translate(text: string, array?: boolean): string {
-  const {t} = useTranslation("pricing");
-  return array ? t(text, {returnObjects: true}) : t(text);
+  const { t } = useTranslation("pricing");
+  return array ? t(text, { returnObjects: true }) : t(text);
+}
+
+function TranslateCommon(text: string, array?: boolean): string {
+  const { t } = useTranslation("common");
+  return array ? t(text, { returnObjects: true }) : t(text);
 }
 
 function TranslateArray(text: string): string[] {
-  const {t} = useTranslation("pricing");
-  return t(text, {returnObjects: true});
+  const { t } = useTranslation("pricing");
+  return t(text, { returnObjects: true });
 }
 
 function stripHtmlTags(text: string): string {
@@ -35,12 +40,15 @@ const Prices = () => {
   return (
     <Container bgColor="gray-100" classes="flex flex-col">
       <h1 className="font-title text-center">{Translate("banner.title")}</h1>
-      <h2 className="font-subtitle text-center mt-5 mb-10" dangerouslySetInnerHTML={{__html: Translate("banner.subtitle")}}></h2>
-      <div className="w-full flex mobile:flex-col desktop:space-x-5 mobile:space-y-5">
-        <PriceCard {...CardProperties("launch", false)}></PriceCard>
+      <h2 className="font-subtitle text-center mt-5 mb-10" dangerouslySetInnerHTML={{ __html: Translate("banner.subtitle") }}></h2>
+      <div className="w-full flex justify-center">
+      <a href="https://share-eu1.hsforms.com/1NRZaU4WaSm2oZo4-oEUVvwffi2u" target="_blank" rel="noreferrer">
+        <button className="button-outline--primary">{TranslateCommon('navbar.demo')}</button>
+      </a>
+        {/* <PriceCard {...CardProperties("launch", false)}></PriceCard>
         <PriceCard {...CardProperties("startup", false)}></PriceCard>
         <PriceCard {...CardProperties("business", true)}></PriceCard>
-        <PriceCard {...CardProperties("enterprise", false)}></PriceCard>
+        <PriceCard {...CardProperties("enterprise", false)}></PriceCard> */}
       </div>
     </Container>
   );
@@ -51,8 +59,8 @@ const Pricing: NextPage = () => {
     <>
       <Head>
         <title>{Translate("title") + ' | Refy'}</title>
-        <meta property="og:title" content={Translate("title")} key={Translate("title")}/>
-        <meta property="og:description" content={stripHtmlTags(Translate("banner.title"))}/>
+        <meta property="og:title" content={Translate("title")} key={Translate("title")} />
+        <meta property="og:description" content={stripHtmlTags(Translate("banner.title"))} />
       </Head>
       <div className="pt-16">
         <Prices></Prices>
@@ -61,8 +69,8 @@ const Pricing: NextPage = () => {
   );
 };
 
-export const getStaticProps = async ({locale}: { locale: string }) => ({
-  props: {...(await serverSideTranslations(locale, ["common", "pricing"]))},
+export const getStaticProps = async ({ locale }: { locale: string }) => ({
+  props: { ...(await serverSideTranslations(locale, ["common", "pricing"])) },
 });
 
 export default Pricing;

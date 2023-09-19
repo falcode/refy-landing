@@ -1,24 +1,24 @@
 {
   "navbar": {
-    "home": "Inicio",
-    "prices": "Precios",
-    "product": "Producto",
+    "home": "Home",
+    "prices": "Prices",
+    "product": "Products",
     "blog": "Blog",
-    "demo": "Solicita una demo",
-    "login": "Iniciar sesión",
-    "integrations": "Integraciones",
-    "successful-cases": "Casos de éxito",
-    "english": "Inglés",
-    "spanish": "Español",
-    "try": "Pruébalo gratis"
+    "demo": "Try a demo",
+    "login": "Log in",
+    "integrations": "Integrations",
+    "successful-cases": "Success stories",
+    "english": "English",
+    "spanish": "Spanish",
+    "try": "Try it for free"
   },
 
   "footer": {
     "title": "© 2022 Refy Inc. All rights reserved.",
-    "terms": "Aviso legal",
-    "privacy": "Política de privacidad",
-    "cookies": "Política de cookies",
-    "contact": "Contacto"
+    "terms": "Legal advice",
+    "privacy": "Privacy policy",
+    "cookies": "Cookies policy",
+    "contact": "Contact us"
   },
 
   "cookies": {

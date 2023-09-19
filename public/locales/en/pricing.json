@@ -1,32 +1,39 @@
 {
-  "title": "Pricing",
+  "title": "Start",
 
   "banner": {
-    "title": "We are changing the game, no more bloodsuckers",
-    "subtitle": "There is no charge for referral, pay once per month. Organic recruitment forever."
+    "title": "Employee referral software to attract talent with your team",
+    "subtitle": "The platform to create <b>the best referral \nprogram<b>, taking your employer branding to the next level",
+    "button": "Try it for free!",
+    "hint": "*Yes, always for free up to 5 employees"
   },
 
-  "card": {
-    "currency": "€",
-    "frequency": "monthly",
-    "left": {
-      "title": "Free",
-      "price": "0",
-      "options": ["Your own company", "5 employee accounts", "Points system without shop"],
-      "button": "Start your trial"
-
+  "prices": {
+    "popular": "Popular",
+    "button": "Regístrate",
+    "launch": {
+      "title": "Launch",
+      "subtitle": "Para equipos de hasta 10 personas",
+      "price": "Gratis",
+      "options": ["Referidos sin límite", "Social Link", "Integración con ATS", "Gamificación y puntos de fidelidad"]
     },
-    "center": {
+    "startup": {
       "title": "Startup",
-      "price": "190",
-      "options": ["Unlimited employee accounts", "Custom ATS integration", "Reward your employees", "Custom shop"],
-      "button": "Subscribe now"
+      "subtitle": "Para equipos de 10 a 50 personas",
+      "price": "49€ al mes",
+      "options": ["Funcionalidades del plan Launch", "Página de carrera", "Integración con Teams o Slack", "Dashboard y gestión de empleados", "Soporte"]
     },
-    "right": {
-      "title": "Company",
-      "price": "300",
-      "options": ["Startup pack & more", "Custom features", "Personal assistance", "Multiple ATS integration"],
-      "button": "Get the ultimate"
+    "business": {
+      "title": "Business",
+      "subtitle": "Para equipos de 50 a 250 personas",
+      "price": "199€ al mes",
+      "options": ["Funcionalidades del plan Startup"]
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "subtitle": "Corporates, procesos de gran volumen, agencias de reclutamiento y otros casos de uso",
+      "price": "Contacta con nuestro equipo de ventas",
+      "options": ["Funcionalidades del plan Business", "Módulo de movilidad interna", "Soporte dedicado vía Account Manager"]
     }
   }
 }

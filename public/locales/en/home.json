@@ -1,98 +1,117 @@
 {
-    "title": "Inicio",
+    "title": "Start",
     "banner": {
-        "title": "El software para atraer talento a través de tu propio equipo.",
-        "subtitle": "La plataforma para crear <b>el mejor programa de referidos</b>, llevando tu marca empleadora al siguiente nivel.",
-        "button": "Pruébalo gratis*",
-        "hint": "*Sí, ¡gratis para siempre hasta 5 empleados!"
+        "title": "Employee referral software to attract talent with your team",
+        "subtitle": "The platform to create <b>the best referral \nprogram<b>, taking your employer branding to the next level",
+        "button": "Try it for free!",
+        "hint": "*Yes, always for free up to 5 employees"
     },
     "referral-program-benefits": {
-        "title": "Hay mucho talento ahí fuera, sólo tienes que saber cómo llegar a él",
-        "subtitle": "El <span>88% de los recruiters</span> aseguran que la mejor fuente para obtener candidatos de calidad es el <span>programa de referidos</span>. ¿Por qué?",
+        "title": "There's a lot of talent out there, you just need to know how to get their attention!",
+        "subtitle": "<span>88% of recruiters</span> claim that the best source for acquiring high-quality candidates is the <span>referral program</span>. Why?",
         "time": {
-            "title": "Menor tiempo de contratación",
-            "text": "Tener acceso directo con el talento hace que tengas que dedicar menos tiempo y recursos en la búsqueda, entrevistas, coordinación y negociación."
+            "title": "Reduced hiring time",
+            "text": "Having direct access to talent means you have to invest less time and resources in searching, interviews, coordination, and negotiation."
         },
         "quality": {
-            "title": "Mayor calidad de candidatos",
-            "text": "Hay mucho talento que encaja con tu empresa pero que no está mirando oportunidades de empleo de forma activa. El programa de referidos es una manera genial de llegar a estos candidatos."
+            "title": "Higher quality candidates",
+            "text": "There's a lot of talent that fits your company but isn't actively looking for job opportunities. The referral program is a great way to reach these candidates."
         },
         "cost": {
-            "title": "Menor coste por contratación",
-            "text": "Encontrar candidatos vía portales de empleo o headhunters puede ser muy costoso. Los referidos son una fuente de captación mucho más económica y, aunque tenga un coste, redunda en un beneficio interno."
+            "title": "Reduced hiring cost",
+            "text": "Finding candidates through job boards or headhunters can be very costly. Referrals are a much more cost-effective source of recruitment, and even though they come with a cost, they result in internal benefits."
         },
         "advocacy": {
-            "title": "Fidelización del equipo",
-            "text": "Si los miembros del equipo trabajan con sus amigos y conocidos, aumentarán las probabilidades de que permanezcan en la empresa."
+            "title": "Team loyalty",
+            "text": "If team members work with their friends and acquaintances, it increases the likelihood that they will stay with the company."
         },
         "culture": {
-            "title": "Match cultural",
-            "text": "El programa de referidos también facilita la atracción de perfiles que encajen en la cultura de la empresa."
+            "title": "Cultural fit",
+            "text": "The referral program also facilitates the attraction of profiles that fit into the company's culture."
         }
     },
     "proposition": {
-        "title": "¿Por qué Refy?",
-        "subtitle": "<span>Atrae talento</span> de calidad, <span>ahorra dinero y tiempo</span> en tus procesos de selección y <span>convierte tus empleados</span> en los mejores <span>promotores</span>.",
+        "title": "Why Refy?",
+        "subtitle": "<span>Attract quality talent</span>, <span>save money and time</span> in your recruitment processes, and <span>turn your employees</span> into the best <span>ambassadors</span>.",
         "advocacy": {
-            "title": "Premia con puntos de fidelidad a todo el equipo",
-            "text": "Las personas del equipo reciben puntos según su implicación en el programa de referidos: candidatos inscritos, publicaciones compartidas, personas contratadas…"
+            "title": "Reward the entire team with loyalty points",
+            "text": "Team members earn points based on their involvement in the referral program: registered candidates, shared posts, hired individuals..."
         },
         "link": {
-            "title": "Cada miembro del equipo tiene un link único",
-            "text": "Distribuye las ofertas de empleo entre los miembros para que compartan sus links únicos con sus redes de contactos. Siempre sabrás de quén viene el candidato."
+            "title": "Each team member has a unique link",
+            "text": "Distribute job openings among the team members, so they can share their unique links with their networks. You will always know where the candidate came from."
         },
         "engage": {
-            "title": "Mantén a tu equipo siempre conectado",
-            "text": "Conecta Slack o Teams para notificar a tu equipo sobre las ofertas de trabajo disponibles o el estado de los candidatos a los que hayan recomendado."
+            "title": "Keep your team always connected",
+            "text": "Connect Slack or Teams to notify your team about available job openings or the status of candidates they have referred."
         }
     },
     "referral-program-settings": {
-        "title": "Un programa de referidos para cada empresa",
-        "subtitle": "Elige el programa de referidos que más se adapte a la cultura de tu empresa.",
+        "title": "A Referral Program for Every Company",
+        "subtitle": "Choose the referral program that best aligns with your company's culture.",
         "advocacy": {
-            "title": "Por puntos",
-            "text": "Los programas de referidos incentivados con una recompensa económica pueden funcionar o no según la cultura de tu empresa. Premiar únicamente a las que aportan nuevas personas al equipo, podría reducir fuertemente la participación.<br><br>Con Refy puedes crear un plan de forma que se incentiven todas aquellas acciones que ayudan a atraer talento y promocionar la marca de tu empresa: compartir la oferta en redes sociales, recomendar nuevas candidatos o compartir publicaciones de interés para el talento.<br><br>La gente de tu equipo podría intercambiar los puntos por otro tipo de recompensas: días de vacaciones, jornadas de teletrabajo, productos / servicios de tu empresa o cualquier tipo de experiencia que pueda ser interesante."
+            "title": "Point-Based",
+            "text": "Incentivized referral programs with a financial reward may or may not work depending on your company's culture. Rewarding only those who bring in new team members could significantly reduce participation.<br><br>You can create a plan that incentivizes all actions that help attract talent and promote your company's brand: sharing job postings on social media, recommending new candidates or sharing content of interest to talent.<br><br>Your team members could redeem points for other types of rewards: vacation days, remote work days, products/services from your company, or any kind of interesting experience.\n\n\n\n"
         },
         "money": {
-            "title": "Por salario",
-            "text": "Los programas de referidos incentivados con una recompensa económica pueden funcionar o no según la cultura de tu empresa. Premiar únicamente a las que aportan nuevas personas al equipo, podría reducir fuertemente la participación.<br><br>Con Refy puedes crear un plan de forma que se incentiven todas aquellas acciones que ayudan a atraer talento y promocionar la marca de tu empresa: compartir la oferta en redes sociales, recomendar nuevas candidatos o compartir publicaciones de interés para el talento.<br><br>La gente de tu equipo podría intercambiar los puntos por otro tipo de recompensas: días de vacaciones, jornadas de teletrabajo, productos / servicios de tu empresa o cualquier tipo de experiencia que pueda ser interesante."
+            "title": "Salary-based",
+            "text": "Incentivized referral programs with a financial reward may or may not work depending on your company's culture. Rewarding only those who bring in new team members could significantly reduce participation.<br><br>You can create a plan that incentivizes all actions that help attract talent and promote your company's brand: sharing job postings on social media, recommending new candidates or sharing content of interest to talent.<br><br>Your team members could redeem points for other types of rewards: vacation days, remote work days, products/services from your company, or any kind of interesting experience."
         },
         "mix": {
-            "title": "Mixto",
-            "text": "Los programas de referidos incentivados con una recompensa económica pueden funcionar o no según la cultura de tu empresa. Premiar únicamente a las que aportan nuevas personas al equipo, podría reducir fuertemente la participación.<br><br>Con Refy puedes crear un plan de forma que se incentiven todas aquellas acciones que ayudan a atraer talento y promocionar la marca de tu empresa: compartir la oferta en redes sociales, recomendar nuevas candidatos o compartir publicaciones de interés para el talento.<br><br>La gente de tu equipo podría intercambiar los puntos por otro tipo de recompensas: días de vacaciones, jornadas de teletrabajo, productos / servicios de tu empresa o cualquier tipo de experiencia que pueda ser interesante."
+            "title": "Mixed",
+            "text": "Incentivized referral programs with a financial reward may or may not work depending on your company's culture. Rewarding only those who bring in new team members could significantly reduce participation.<br><br>You can create a plan that incentivizes all actions that help attract talent and promote your company's brand: sharing job postings on social media, recommending new candidates or sharing content of interest to talent.<br><br>Your team members could redeem points for other types of rewards: vacation days, remote work days, products/services from your company, or any kind of interesting experience."
         },
         "image-card": {
             "options": [
-                "Candidato recomendado",
-                "Candidato contratado",
-                "Post de oferta",
-                "Post de marca"
+                "Recommended candidate",
+                "Hired candidate",
+                "Job posting",
+                "Employer branding post"
             ],
             "points": [
-                "5 pts",
-                "100 pts",
-                "1 pts",
-                "10 pts"
+                "5 p",
+                "100 p",
+                "1 p",
+                "10 p"
             ]
         }
     },
     "companies": {
-        "title": "Algunas de las empresas que ya atraen talento con Refy"
+        "title": "Some of the companies already attracting talent with Refy"
     },
     "link": {
-        "title": "Trazabilidad total: un link de oferta único para cada miembro del equipo",
-        "text": "Una de las claves del programa de referidos de Refy es tener un control total sobre las ofertas compartidas públicamente.<br><br>En Refy, cada persona del equipo puede compartir sus enlaces únicos de oferta con quien quiera. Esto permite conocer quiénes son los que atraen más visitas o que se esfuerzan más en la difusión de las ofertas.<br><br>Además, cuando una candidato se inscribe a la oferta a través del enlace, es posible saber quién le ha recomendado y le mantendremos informado sobre la candidatura en todo momento."
+        "title": "Social link: a unique job link for each team member that allows you to have complete traceability",
+        "text": "One of the keys to Refy's referral program is having complete control over publicly shared job postings.<br><br>In Refy, every team member can share their unique job links with whomever they choose. This allows you to know who is generating the most visits or putting in the most effort in spreading the job postings.<br><br>Additionally, when a candidate applies through the link, you can always know who referred them, and we will inform them about the application for their review. You'll have the visits generated by each team member identified, as well as the channels with the highest conversion (LinkedIn, Instagram, WhatsApp, etc.)."
     },
     "filter-candidates": {
-        "title": "Obtén más información de los candidatos usando las preguntas de filtro",
-        "text": "Desde Refy puedes crear preguntas para que las personas de tu equipo aporten más información acerca de los candidatos a los que han recomendado. Cuál es su nivel de inglés real, rango salarial esperado o mayor virtud por poner algunos ejemplos.<br><br>El objetivo debe ser que el equipo se implique en atraer al mejor talento posible, optimizando los procesos de selección al máximo."
+        "title": "Get more candidate insights using filter questions",
+        "text": "From Refy, you can create questions for your team members to provide more information about the candidates they recommend. This could include their actual English level, expected salary range, or their greatest strength, among other examples.<br><br>The goal should be to engage the team in attracting the best possible talent while optimizing the selection process to the fullest."
     },
     "integrations": {
-        "title": "Estamos 100% integrados con tu ATS",
-        "text": "Nos integramos con tus herramientas de gestión de selección y RRHH (ATS, HCMS, ERPs…), reduciendo el trabajo administrativo todo lo posible.<br><br>Cuando publiques una oferta en tu sistema, se copiará automáticamente en Refy para que todo tu equipo pueda verla.<br><br>Cuando una persona se inscriba a una oferta en Refy, se copiará automáticamente en tu sistema para que la puedas gestionar junto al resto.<br><br>¿Qué pasa si no tienes ninguna plataforma? ¡No hay problema, tenemos solución para ello!"
+        "title": "We are 100% integrated with your ATS",
+        "text": "We integrate with your recruitment and HR management tools (ATS, HCMS, ERPs...) to minimize administrative work as much as possible.\n<br><br>When you post a job in your system, it will automatically be copied to Refy for your entire team to see.\n<br><br>When a person applies for a job on Refy, it will automatically be copied to your system for you to manage with the others.<br><br>What if you don't have any platform? No problem, we have a solution for that!"
     },
     "channels": {
-        "title": "Mantén a tus empleados 100% conectados vía Teams o Slack",
-        "text": "Puedes conectar tu herramienta de comunicación interna para que las personas de tu equipo reciban una notificación cuando añades una nueva oferta de empleo, una publicación o cuando a un empleado le llega una nueva solicitud de recomendación.<br><br>Refy se encarga de la comunicación entre tu y tu equipo para que no tengas que preocuparte de nada."
+        "title": "Keep your employees 100% connected via Teams or Slack",
+        "text": "You can connect your internal communication tool so that your team members receive notifications when you add a new job posting, a publication or when an employee receives a new recommendation request.\n<br><br>Refy takes care of communication between you and your team, so you don't have to worry about a thing."
+    },
+    "talking-about-us": {
+        "title": "Experts recommend Refy",
+        "subtitle": "Top experts in <b>Inbound Recruiting</b> agree that <b>Refy</b> is a unique tool.",
+        "toni-gimeno": {
+            "name": "Toni Gimeno",
+            "text": "The referral program is the most powerful channel for attracting talent and yet the least used of all. It's not enough to have it; you also need to promote and improve it to get the most out of it."
+        },
+        "jaime-puig": {
+            "name": "Jaime Puig",
+            "text": "The benefits of a good referral strategy are endless: better candidate fit with the company, lower cost of attraction and hiring... and yet, very few companies take advantage of it."
+        }
+    },
+    "referral-types": {
+        "title": "Explore beyond first-level referrals with social referrals",
+        "text": "Your team can help you, not only by attracting first-level contacts but also using their social networks to promote job postings and the employer brand. This is what we call social referrals in Refy.\n<br><br>With Refy, your team members can add candidates or share their Social link so that candidates can apply for the job themselves."
+    },
+    "navbar": {
+        "home": "Start"
     }
 }
